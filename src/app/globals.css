@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #10283b;
+  --color-navy-deep: #0a1b29;
+  --color-navy-soft: #1a3b54;
+  --color-brand: #f15a24;
+  --color-brand-soft: #ff8a5c;
+  --color-brand-ink: #b33e0f;
+  --color-sand: #f3f2ee;
+  --color-line: #d5dce2;
+  --color-muted: #3b5368;
+
+  --font-sans: "Barlow", "Cairo Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Barlow Condensed", "Cairo Variable", "Barlow", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    background: #fff;
+    color: var(--color-navy);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-brand);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  ::selection {
+    background: var(--color-brand);
+    color: var(--color-navy);
+  }
+}
+
+@layer components {
+  /* Big condensed headings (Barlow Condensed in English, Cairo in Arabic). */
+  .display {
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.98;
+    letter-spacing: 0.005em;
+  }
+  .eyebrow {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.125rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0.75rem 1.75rem;
+    border-radius: 0.25rem;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .btn-primary {
+    background: var(--color-brand);
+    color: var(--color-navy);
+  }
+  .btn-primary:hover {
+    background: var(--color-brand-soft);
+  }
+  .btn-light {
+    background: #fff;
+    color: var(--color-navy);
+  }
+  .btn-light:hover {
+    background: var(--color-sand);
+  }
+  .btn-outline {
+    border: 2px solid var(--color-navy);
+    color: var(--color-navy);
+  }
+  .btn-outline:hover {
+    background: var(--color-navy);
+    color: #fff;
+  }
+  .prose-pat p + p {
+    margin-top: 1rem;
+  }
+}
+
+/* Arabic: no tracking, no uppercase (both break letter joining), looser leading. */
+html[lang="ar"] body {
+  line-height: 1.85;
+}
+html[lang="ar"] .display,
+html[lang="ar"] .eyebrow,
+html[lang="ar"] .uppercase {
+  text-transform: none;
+  letter-spacing: 0;
+}
+html[lang="ar"] .display {
+  line-height: 1.3;
+}
+html[lang="ar"] [class*="tracking-"] {
+  letter-spacing: 0;
+}
+
+/* Arabic glyphs are wider and taller than the condensed Latin face: scale headings down. */
+html[lang="ar"] .display {
+  font-weight: 800;
+}
+html[lang="ar"] h1.display {
+  font-size: clamp(2.25rem, 1.5rem + 2.6vw, 3.5rem);
+}
+html[lang="ar"] h2.display {
+  font-size: clamp(1.75rem, 1.2rem + 1.8vw, 2.75rem);
+}
+html[lang="ar"] .display[class*="text-8xl"] {
+  font-size: 6rem;
+}
