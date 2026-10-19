@@ -6,6 +6,22 @@ DCS commissioning and site services for power plants in Egypt, Saudi Arabia and 
 Stack: **Next.js 16** (App Router, static generation) · **TypeScript** · **Tailwind CSS 4** ·
 self-hosted fonts via Fontsource (Barlow, Barlow Condensed, Cairo). No database, no CMS.
 
+## Preview
+
+Screenshots of the production build (full-page captures).
+
+| Home (EN) | Home (AR, RTL) |
+|---|---|
+| ![Home EN](docs/preview/home-en.jpg) | ![Home AR](docs/preview/home-ar.jpg) |
+
+| Project page (EN) | Project page (AR, RTL) |
+|---|---|
+| ![Project EN](docs/preview/project-en.jpg) | ![Project AR](docs/preview/project-ar.jpg) |
+
+| Project library | Services | Mobile |
+|---|---|---|
+| ![Projects](docs/preview/projects-en.jpg) | ![Services](docs/preview/services-en.jpg) | ![Mobile](docs/preview/home-mobile.jpg) |
+
 ## Run
 
 ```bash
