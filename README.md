@@ -75,3 +75,4 @@ the gallery only appears when images exist.
 
 - `docs/MIGRATION.md` — SEO, redirects, spam clean-up and go-live checklist.
 - `docs/CONTENT-REVIEW.md` — facts and translations the owner should confirm before launch.
+- `brand/` — logo suite, colours, typography, business card, letterhead, e-mail signature (see `brand/README.md`).

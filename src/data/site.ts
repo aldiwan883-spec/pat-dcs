@@ -5,7 +5,7 @@ export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://patdcs.com
 export const company = {
   legalName: "Power Automation Team Co.",
   shortName: "PAT",
-  name: T("Power Automation Team", "فريق الأتمتة للطاقة"),
+  name: T("Power Automation Team", "باور أوتوميشن تيم"),
   founded: 1991,
   owner: T("Ahdy Abu-Malwa", "عهدي أبو ملوى"),
   email: "info@patdcs.com",

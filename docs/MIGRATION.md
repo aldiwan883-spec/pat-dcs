@@ -59,5 +59,5 @@ Full lists: `src/lib/legacy.ts`. Test after deploy: `curl -sI https://patdcs.com
 ## 5. Not covered by code (needs a person)
 
 - Real project photos and documents (publish only what clients allow).
-- Original vector logo (the site currently uses the raster mark from the old site).
+- Printed colour proof for the business cards and letterhead (navy and orange).
 - Rate limiting / CAPTCHA for the contact form beyond the built-in honeypot and per-instance limiter.

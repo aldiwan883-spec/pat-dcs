@@ -35,4 +35,4 @@ and the vision / mission text.
 - **Not used on purpose**: the architecture photo `Alien.jpeg` (watermarked © Tim Mulcahy), stock images (HART communicator,
   hands, aircraft diagram, Delta inverter), the Aramco certificate of appreciation (names another person),
   engineering drawings (client documents), and ID-badge photos.
-- Logo is the raster mark from the old site; replace with the original vector file when available.
+- Logo: the approved new artwork, vectorised in `brand/` (SVG master files + PNG/PDF exports).

@@ -12,11 +12,11 @@ export function organizationSchema(locale: Locale) {
     name: company.legalName,
     alternateName: ["PAT", company.name.en, company.name.ar],
     url: SITE_URL,
-    logo: `${SITE_URL}/images/pat-mark.png`,
+    logo: `${SITE_URL}/images/brand/pat-symbol-color-256.png`,
     image: `${SITE_URL}/og/default.jpg`,
     description:
       locale === "ar"
-        ? "فريق الأتمتة للطاقة: تشغيل وتسليم أنظمة DCS والقياس والتحكم لمحطات الكهرباء في مصر والسعودية وعُمان منذ 1991."
+        ? "باور أوتوميشن تيم: تشغيل وتسليم أنظمة DCS والقياس والتحكم لمحطات الكهرباء في مصر والسعودية وعُمان منذ 1991."
         : "Power Automation Team: DCS commissioning, I&C testing, start-up, training and technical staffing for power plants in Egypt, Saudi Arabia and Oman since 1991.",
     foundingDate: String(company.founded),
     founder: { "@type": "Person", name: company.owner.en },
