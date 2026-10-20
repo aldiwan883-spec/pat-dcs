@@ -3,6 +3,9 @@
 Power Automation Team Co. — **باور أوتوميشن تيم** — DCS & Instruments Specialists, since 1991.
 English is the primary language of the brand; Arabic is used alongside it.
 
+Quick look: `previews/` has one sheet per group (logo, stationery, ID badge, PPE, vehicle, signage,
+roll-up, social, presentation, merchandise, brand board).
+
 ## Positioning
 
 **The commissioning specialists.** PAT is the team EPC contractors and system vendors (Emerson, Hanwha, …)
@@ -14,28 +17,34 @@ commissioning, start-up, punch-list closure and operator training.
 - **Voice:** facts instead of adjectives — plant, capacity, year, scope. No “leader”, “best”, “revolutionizing”.
   Example: *“Shoaiba Stage I — ABB to Ovation, IO loop checks and start-up on a tight schedule.”*
 
-## Logo
+## Logo — `logo/` (SVG masters) and `png/logo/` (transparent PNG)
 
 The symbol: two woven bundles of signal lines (navy, steel blue, orange) around the slab-serif **PAT**.
 
 | File | Use |
 |---|---|
-| `logo/pat-symbol-color.svg` | Default symbol on white / light backgrounds |
-| `logo/pat-symbol-reverse.svg` | On navy or dark photos (navy parts turn white) |
-| `logo/pat-symbol-navy.svg`, `pat-symbol-white.svg` | One-colour: engraving, stamps, embroidery, fax/forms |
-| `logo/pat-lockup-horizontal-*.svg` | Primary lockup with the name — website header, letterhead, documents |
-| `logo/pat-lockup-stacked-*.svg` | Square formats: social profile, roll-ups, title slides |
-| `logo/pat-lockup-arabic-*.svg` | Arabic materials |
-| `logo/pat-favicon.svg` | Letters only — favicon and anything under 48 px |
-| `logo/pat-app-icon.svg` | Symbol on white square (app / profile icon) |
-| `logo/pat-weave-device.svg` | The line bundles without letters — graphic device, never a logo replacement |
-| `png/` | Transparent PNG exports of all of the above |
+| `pat-symbol-color` | Default symbol on white / light backgrounds |
+| `pat-symbol-reverse` | On navy or dark photos (navy parts turn white) |
+| `pat-symbol-navy`, `pat-symbol-white` | One colour: engraving, stamps, embroidery, forms |
+| `pat-lockup-horizontal-*` | Primary lockup — website header, letterhead, documents |
+| `pat-lockup-stacked-*` | Square formats: social profile, roll-ups, title slides |
+| `pat-lockup-arabic-*` | Arabic materials |
+| `*-reverse-transparent` | White + colour artwork without background, for printing on navy fabric or dark surfaces |
+| `pat-favicon` | Letters only — favicon and anything under 48 px |
+| `pat-app-icon` | Symbol on a white square (profile pictures, app icon) |
+| `pat-weave-device` | One stripe bundle, no letters — the graphic device, never a logo replacement |
 
-**Clear space:** keep free space around the logo equal to the height of the letter **P**.
-**Minimum size:** symbol 48 px / 12 mm; below that use the favicon (letters only). Horizontal lockup 160 px / 35 mm wide.
+**Clear space:** the height of the letter **P** on every side. **Minimum size:** symbol 12 mm / 48 px
+(below that use the favicon); horizontal lockup 35 mm / 160 px wide.
 
-**Don’t:** recolour the stripes, add shadows or glows, stretch, rotate the symbol, put the colour version on busy
-photos (use the reverse or white version on a dark overlay), or rebuild the letters in another typeface.
+**Don’t:** recolour the stripes, add shadows or glows, stretch or rotate the symbol, put the colour version on busy
+photos (use reverse or white on a dark overlay), or rebuild the letters in another typeface.
+
+## The weave — graphic device
+
+One stripe bundle of the logo, enlarged, sweeping in from an edge at about 57° and running off the page
+(business card, folder, roll-up, slides, social). Keep it off text; keep its ends cropped by the page edge.
+`brand.py` places it with `weave(x, y, length, angle)`.
 
 ## Colour
 
@@ -56,31 +65,51 @@ PAT Orange on white is 3.75 : 1 — fine for the logo and large graphics, not fo
 
 | Use | Typeface | Notes |
 |---|---|---|
-| Headlines | **Barlow Condensed** 600/700 | Upper case for short headings, slight tracking |
+| Headlines | **Barlow Condensed** 600/700/800 | Upper case for short headings |
 | Body, UI, forms | **Barlow** 400/500/600 | |
-| Arabic | **Cairo** 400–800 | No letter-spacing, no upper case rules |
+| Arabic | **Cairo** 400–800 | No letter-spacing, no upper-case rules |
 | Logo letters | Slab serif inside the symbol only | Never re-typeset — use the files |
 
-All three are free (Google Fonts / Fontsource). Office fallback: Arial Narrow (headings) and Arial (body).
+All free (Google Fonts / Fontsource). Office fallback: Arial Narrow (headings), Arial (body).
 
-## Stationery
+## Applications
 
-| File | |
-|---|---|
-| `stationery/business-card-front-ahdy-abu-malwa.svg`, `business-card-back.svg` | 85 × 55 mm card, 3 mm bleed |
-| `print/business-card-ahdy-abu-malwa-91x61mm-bleed.pdf` | Print-ready, 2 pages (front + back), 91 × 61 mm with bleed |
-| `stationery/letterhead-a4.svg`, `print/letterhead-a4.pdf` | A4 letterhead |
-| `email/signature.html` | E-mail signature (logo served from patdcs.com) |
+Print-ready PDFs are in `print/` (RGB from the SVG masters, with bleed where noted — ask the printer to convert
+to their CMYK profile and send a hard proof). Text is converted to outlines, so no fonts are needed to print.
 
-Keep text 4 mm inside the trim line. Ask the printer for a hard proof to match the navy and orange.
-New cards: copy the front file and change name, title and phone, or regenerate with `source/brand.py`.
+| Item | Files | Size |
+|---|---|---|
+| Business card | `stationery/business-card-front-ahdy-abu-malwa.svg`, `business-card-back.svg`, `print/business-card-…pdf` | 85 × 55 mm + 3 mm bleed |
+| Letterhead | `stationery/letterhead-a4.svg`, `print/letterhead-a4.pdf` | A4 |
+| Envelope | `stationery/envelope-dl.svg`, `print/envelope-dl-…pdf` | DL 220 × 110 mm + 3 mm bleed |
+| Presentation folder | `stationery/folder-a4-outer.svg`, `folder-a4-inner.svg` + PDFs | 2 × 220 × 310 mm + 3 mm bleed — apply the printer’s die-line (pocket, spine) |
+| E-mail signature | `email/signature.html` | Logo served from patdcs.com |
+| ID badge | `badge/id-badge-front.svg`, `id-badge-back.svg`, `print/id-badge-…pdf` | CR80 54 × 86 mm + 2 mm bleed |
+| Lanyard | `badge/lanyard-900x20mm.svg` | 900 × 20 mm repeat |
+| Hard hat | `ppe/hardhat-decal-58x56mm.svg`, `ppe/hardhat-side-sticker-110x30mm.svg` | Cut to the rounded rectangle |
+| Coveralls | `ppe/coverall-chest-light-90mm.svg`, `coverall-chest-navy-90mm.svg`, `coverall-back-navy-260mm.svg` | Heat transfer / print; for embroidery keep ≥ 90 mm |
+| Hi-vis vest | `ppe/vest-back-navy-print-250mm.svg` | One colour navy |
+| Vehicle | `vehicle/door-decal-600mm.svg`, `rear-quarter-1200x900mm.svg`, `tailgate-1200x100mm.svg` | Cut/printed vinyl — confirm sizes on the vehicle |
+| Signage | `signage/reception-lockup-2000mm.svg`, `signage/entrance-plate-300x200mm.svg` + PDF | Reception: brushed metal or acrylic letters |
+| Roll-up | `rollup/rollup-850x2000mm.svg`, `print/rollup-…pdf` | 850 × 2000 mm + 3 mm; most stands hide ~100 mm at the bottom |
+| LinkedIn | `social/linkedin-cover-1584x396.svg`, `linkedin-company-cover-1128x191.svg`; profile picture `png/logo/pat-app-icon-400.png` | px |
+| Social posts | `social/post-project-1080.svg`, `post-services-1080.svg`, `post-since-1991-1080.svg` | 1080 × 1080 px templates |
+| Presentation | `presentation/title-slide-1920x1080.svg`, `closing-slide-1920x1080.svg` | 16 : 9 (full deck in the presentation phase) |
+| Company profile cover | `presentation/profile-cover-a4.svg`, `print/profile-cover-…pdf` | A4 + 3 mm bleed |
+| Merchandise | `merch/mug-wrap-200x85mm.svg`, `notebook-a5-cover.svg`, `tote-print-250mm.svg`, `sticker-sheet-a5.svg` (+ PDF) | — |
+| Brand board | `board/brand-board-1920x1080.svg`, `print/brand-board.pdf` | One-page summary |
+
+Each SVG also has PNG exports in `png/<folder>/`.
+
+**New business cards / badges:** add a person to `PEOPLE` in `source/brand.py` (name, title, phone) and run the
+generator — or ask for it. The badge front is a template (`NAME SURNAME`, `ID 0000`).
 
 ## Photography
 
-Real site photography only: control rooms, cabinets, operator stations, teams in correct PPE.
-AI-generated or stock scenes may be used as brand mood images but never captioned as a specific project or client site.
+Real site photography: control rooms, cabinets, operator stations, teams in correct PPE.
+AI-generated or stock scenes may be used as mood images but never captioned as a specific project or client site.
+Large prints (roll-up, signage) need photos of at least 3500 px on the long side — the current site photos are not.
 
 ## Source
 
-`source/` holds the logo source image and the scripts that traced it and generated every file here
-(`trace.py` → `build_symbol.py` → `brand.py` → `export.mjs`).
+`source/` holds the logo artwork and the scripts that traced it and generate every file here — see `source/README.md`.

@@ -1,0 +1,621 @@
+[
+ {
+  "svg": "logo/pat-symbol-color.svg",
+  "png": [
+   256,
+   1024
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Symbol \u2014 color",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-symbol-reverse.svg",
+  "png": [
+   256,
+   1024
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Symbol \u2014 reverse",
+  "dark": true
+ },
+ {
+  "svg": "logo/pat-symbol-navy.svg",
+  "png": [
+   256,
+   1024
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Symbol \u2014 navy",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-symbol-white.svg",
+  "png": [
+   256,
+   1024
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Symbol \u2014 white",
+  "dark": true
+ },
+ {
+  "svg": "logo/pat-lockup-horizontal-color.svg",
+  "png": [
+   600,
+   2000
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Horizontal \u2014 color",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-lockup-horizontal-reverse.svg",
+  "png": [
+   600,
+   2000
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Horizontal \u2014 reverse",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-lockup-horizontal-navy.svg",
+  "png": [
+   600,
+   2000
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Horizontal \u2014 navy",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-lockup-horizontal-white.svg",
+  "png": [
+   600,
+   2000
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Horizontal \u2014 white",
+  "dark": true
+ },
+ {
+  "svg": "logo/pat-lockup-stacked-color.svg",
+  "png": [
+   1200
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Stacked \u2014 color",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-lockup-stacked-reverse.svg",
+  "png": [
+   1200
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Stacked \u2014 reverse",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-lockup-stacked-navy.svg",
+  "png": [
+   1200
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Stacked \u2014 navy",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-lockup-stacked-white.svg",
+  "png": [
+   1200
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Stacked \u2014 white",
+  "dark": true
+ },
+ {
+  "svg": "logo/pat-lockup-arabic-color.svg",
+  "png": [
+   2000
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Arabic \u2014 color",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-lockup-arabic-reverse.svg",
+  "png": [
+   2000
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Arabic \u2014 reverse",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-lockup-horizontal-reverse-transparent.svg",
+  "png": [
+   2000
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Horizontal \u2014 reverse, transparent",
+  "dark": true
+ },
+ {
+  "svg": "logo/pat-lockup-stacked-reverse-transparent.svg",
+  "png": [
+   1200
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Stacked \u2014 reverse, transparent",
+  "dark": true
+ },
+ {
+  "svg": "logo/pat-favicon.svg",
+  "png": [
+   180,
+   512
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Favicon (letters only)",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-app-icon.svg",
+  "png": [
+   400,
+   1024
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "App / profile icon",
+  "dark": false
+ },
+ {
+  "svg": "logo/pat-weave-device.svg",
+  "png": [
+   1600
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Weave device",
+  "dark": false
+ },
+ {
+  "svg": "stationery/business-card-back.svg",
+  "png": [
+   1200
+  ],
+  "pdf": null,
+  "group": "Stationery",
+  "label": "Business card \u2014 back",
+  "dark": false
+ },
+ {
+  "svg": "stationery/business-card-front-ahdy-abu-malwa.svg",
+  "png": [
+   1200
+  ],
+  "pdf": {
+   "w": 91,
+   "h": 61,
+   "name": "print/business-card-ahdy-abu-malwa-91x61mm-bleed.pdf",
+   "pages": [
+    "stationery/business-card-front-ahdy-abu-malwa.svg",
+    "stationery/business-card-back.svg"
+   ]
+  },
+  "group": "Stationery",
+  "label": "Business card \u2014 Ahdy Abu-Malwa",
+  "dark": false
+ },
+ {
+  "svg": "stationery/letterhead-a4.svg",
+  "png": [
+   1240
+  ],
+  "pdf": {
+   "w": 210,
+   "h": 297,
+   "name": "print/letterhead-a4.pdf",
+   "pages": [
+    "stationery/letterhead-a4.svg"
+   ]
+  },
+  "group": "Stationery",
+  "label": "Letterhead A4",
+  "dark": false
+ },
+ {
+  "svg": "stationery/envelope-dl.svg",
+  "png": [
+   1400
+  ],
+  "pdf": {
+   "w": 226,
+   "h": 116,
+   "name": "print/envelope-dl-226x116mm-bleed.pdf",
+   "pages": [
+    "stationery/envelope-dl.svg"
+   ]
+  },
+  "group": "Stationery",
+  "label": "Envelope DL",
+  "dark": false
+ },
+ {
+  "svg": "stationery/folder-a4-outer.svg",
+  "png": [
+   1800
+  ],
+  "pdf": {
+   "w": 446,
+   "h": 316,
+   "name": "print/folder-a4-outer-446x316mm-bleed.pdf",
+   "pages": [
+    "stationery/folder-a4-outer.svg"
+   ]
+  },
+  "group": "Stationery",
+  "label": "A4 folder \u2014 outside (back + front)",
+  "dark": false
+ },
+ {
+  "svg": "stationery/folder-a4-inner.svg",
+  "png": [
+   1800
+  ],
+  "pdf": {
+   "w": 446,
+   "h": 316,
+   "name": "print/folder-a4-inner-446x316mm-bleed.pdf",
+   "pages": [
+    "stationery/folder-a4-inner.svg"
+   ]
+  },
+  "group": "Stationery",
+  "label": "A4 folder \u2014 inside",
+  "dark": false
+ },
+ {
+  "svg": "badge/id-badge-front.svg",
+  "png": [
+   700
+  ],
+  "pdf": {
+   "w": 58,
+   "h": 90,
+   "name": "print/id-badge-cr80-58x90mm-bleed.pdf",
+   "pages": [
+    "badge/id-badge-front.svg",
+    "badge/id-badge-back.svg"
+   ]
+  },
+  "group": "ID badge",
+  "label": "ID badge \u2014 front (CR80)",
+  "dark": false
+ },
+ {
+  "svg": "badge/id-badge-back.svg",
+  "png": [
+   700
+  ],
+  "pdf": null,
+  "group": "ID badge",
+  "label": "ID badge \u2014 back",
+  "dark": false
+ },
+ {
+  "svg": "badge/lanyard-900x20mm.svg",
+  "png": [
+   2400
+  ],
+  "pdf": null,
+  "group": "ID badge",
+  "label": "Lanyard 900 \u00d7 20 mm",
+  "dark": false
+ },
+ {
+  "svg": "ppe/hardhat-decal-58x56mm.svg",
+  "png": [
+   600
+  ],
+  "pdf": null,
+  "group": "PPE",
+  "label": "Hard-hat decal 58 \u00d7 56 mm",
+  "dark": false
+ },
+ {
+  "svg": "ppe/hardhat-side-sticker-110x30mm.svg",
+  "png": [
+   1000
+  ],
+  "pdf": null,
+  "group": "PPE",
+  "label": "Hard-hat side sticker",
+  "dark": false
+ },
+ {
+  "svg": "ppe/coverall-chest-light-90mm.svg",
+  "png": [
+   1000
+  ],
+  "pdf": null,
+  "group": "PPE",
+  "label": "Coverall chest \u2014 light fabric",
+  "dark": false
+ },
+ {
+  "svg": "ppe/coverall-chest-navy-90mm.svg",
+  "png": [
+   1000
+  ],
+  "pdf": null,
+  "group": "PPE",
+  "label": "Coverall chest \u2014 navy fabric",
+  "dark": true
+ },
+ {
+  "svg": "ppe/coverall-back-navy-260mm.svg",
+  "png": [
+   1400
+  ],
+  "pdf": null,
+  "group": "PPE",
+  "label": "Coverall back \u2014 navy fabric",
+  "dark": true
+ },
+ {
+  "svg": "ppe/vest-back-navy-print-250mm.svg",
+  "png": [
+   1400
+  ],
+  "pdf": null,
+  "group": "PPE",
+  "label": "Hi-vis vest back (one colour)",
+  "dark": false
+ },
+ {
+  "svg": "vehicle/door-decal-600mm.svg",
+  "png": [
+   1600
+  ],
+  "pdf": null,
+  "group": "Vehicle",
+  "label": "Door decal 600 mm",
+  "dark": false
+ },
+ {
+  "svg": "vehicle/rear-quarter-1200x900mm.svg",
+  "png": [
+   1600
+  ],
+  "pdf": null,
+  "group": "Vehicle",
+  "label": "Rear-quarter graphic 1200 \u00d7 900 mm",
+  "dark": false
+ },
+ {
+  "svg": "vehicle/tailgate-1200x100mm.svg",
+  "png": [
+   1600
+  ],
+  "pdf": null,
+  "group": "Vehicle",
+  "label": "Tailgate strip 1200 \u00d7 100 mm",
+  "dark": false
+ },
+ {
+  "svg": "signage/reception-lockup-2000mm.svg",
+  "png": [
+   2000
+  ],
+  "pdf": null,
+  "group": "Signage",
+  "label": "Reception wall sign \u2014 2000 mm",
+  "dark": false
+ },
+ {
+  "svg": "signage/entrance-plate-300x200mm.svg",
+  "png": [
+   1500
+  ],
+  "pdf": {
+   "w": 300,
+   "h": 200,
+   "name": "print/entrance-plate-300x200mm.pdf",
+   "pages": [
+    "signage/entrance-plate-300x200mm.svg"
+   ]
+  },
+  "group": "Signage",
+  "label": "Entrance plate 300 \u00d7 200 mm",
+  "dark": false
+ },
+ {
+  "svg": "rollup/rollup-850x2000mm.svg",
+  "png": [
+   900
+  ],
+  "pdf": {
+   "w": 856,
+   "h": 2006,
+   "name": "print/rollup-850x2000mm-bleed.pdf",
+   "pages": [
+    "rollup/rollup-850x2000mm.svg"
+   ]
+  },
+  "group": "Roll-up",
+  "label": "Roll-up 850 \u00d7 2000 mm",
+  "dark": false
+ },
+ {
+  "svg": "social/linkedin-cover-1584x396.svg",
+  "png": [
+   1584
+  ],
+  "pdf": null,
+  "group": "Social",
+  "label": "LinkedIn profile cover 1584 \u00d7 396",
+  "dark": false
+ },
+ {
+  "svg": "social/linkedin-company-cover-1128x191.svg",
+  "png": [
+   1128
+  ],
+  "pdf": null,
+  "group": "Social",
+  "label": "LinkedIn company cover 1128 \u00d7 191",
+  "dark": false
+ },
+ {
+  "svg": "social/post-project-1080.svg",
+  "png": [
+   1080
+  ],
+  "pdf": null,
+  "group": "Social",
+  "label": "Post template \u2014 project",
+  "dark": false
+ },
+ {
+  "svg": "social/post-services-1080.svg",
+  "png": [
+   1080
+  ],
+  "pdf": null,
+  "group": "Social",
+  "label": "Post template \u2014 services",
+  "dark": false
+ },
+ {
+  "svg": "social/post-since-1991-1080.svg",
+  "png": [
+   1080
+  ],
+  "pdf": null,
+  "group": "Social",
+  "label": "Post template \u2014 since 1991",
+  "dark": false
+ },
+ {
+  "svg": "presentation/title-slide-1920x1080.svg",
+  "png": [
+   1920
+  ],
+  "pdf": null,
+  "group": "Presentation",
+  "label": "Title slide",
+  "dark": false
+ },
+ {
+  "svg": "presentation/closing-slide-1920x1080.svg",
+  "png": [
+   1920
+  ],
+  "pdf": null,
+  "group": "Presentation",
+  "label": "Closing slide",
+  "dark": false
+ },
+ {
+  "svg": "presentation/profile-cover-a4.svg",
+  "png": [
+   1240
+  ],
+  "pdf": {
+   "w": 216,
+   "h": 303,
+   "name": "print/profile-cover-a4-216x303mm-bleed.pdf",
+   "pages": [
+    "presentation/profile-cover-a4.svg"
+   ]
+  },
+  "group": "Presentation",
+  "label": "Company profile cover A4",
+  "dark": false
+ },
+ {
+  "svg": "merch/mug-wrap-200x85mm.svg",
+  "png": [
+   1400
+  ],
+  "pdf": null,
+  "group": "Merchandise",
+  "label": "Mug wrap 200 \u00d7 85 mm",
+  "dark": false
+ },
+ {
+  "svg": "merch/notebook-a5-cover.svg",
+  "png": [
+   900
+  ],
+  "pdf": null,
+  "group": "Merchandise",
+  "label": "Notebook A5 cover",
+  "dark": false
+ },
+ {
+  "svg": "merch/tote-print-250mm.svg",
+  "png": [
+   1200
+  ],
+  "pdf": null,
+  "group": "Merchandise",
+  "label": "Tote bag print (one colour)",
+  "dark": false
+ },
+ {
+  "svg": "merch/sticker-sheet-a5.svg",
+  "png": [
+   900
+  ],
+  "pdf": {
+   "w": 148,
+   "h": 210,
+   "name": "print/sticker-sheet-a5.pdf",
+   "pages": [
+    "merch/sticker-sheet-a5.svg"
+   ]
+  },
+  "group": "Merchandise",
+  "label": "Sticker sheet A5 (grey lines = cut)",
+  "dark": false
+ },
+ {
+  "svg": "board/brand-board-1920x1080.svg",
+  "png": [
+   1920
+  ],
+  "pdf": {
+   "w": 508,
+   "h": 285.75,
+   "name": "print/brand-board.pdf",
+   "pages": [
+    "board/brand-board-1920x1080.svg"
+   ]
+  },
+  "group": "Brand board",
+  "label": "Brand board",
+  "dark": false
+ }
+]
