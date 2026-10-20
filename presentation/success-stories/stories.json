@@ -36,7 +36,8 @@
    "logo": "hanwha"
   },
   "saudifal": {
-   "name": "Saudi FAL"
+   "name": "Saudi FAL",
+   "logo": "saudifal"
   },
   "ge": {
    "name": "GE",
@@ -52,7 +53,8 @@
    "logo": "leoron"
   },
   "giza": {
-   "name": "Giza Systems"
+   "name": "Giza Systems",
+   "logo": "giza"
   },
   "kbr": {
    "name": "KBR (design)",
