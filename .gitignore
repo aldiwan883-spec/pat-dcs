@@ -7,3 +7,5 @@ next-env.d.ts
 .env.local
 .DS_Store
 profile/*.html
+presentation/success-stories/assets/generated/_tmp
+presentation/success-stories/out/pages

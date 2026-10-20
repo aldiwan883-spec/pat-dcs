@@ -1,0 +1,1310 @@
+[
+ {
+  "no": 1,
+  "slug": "ataka-power-plant-dcs-retrofit",
+  "name": {
+   "en": "Ataka Power Plant 2×300 + 2×150 MW",
+   "ar": "محطة كهرباء عتاقة 2×300 + 2×150 ميجاوات"
+  },
+  "type": {
+   "en": "DCS retrofit",
+   "ar": "تحديث نظام DCS"
+  },
+  "country": "egypt",
+  "start": 2004,
+  "capacity": "2×300 + 2×150 MW",
+  "figure": {
+   "value": "900",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "ovation",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "commissioning",
+   "training"
+  ],
+  "featured": false,
+  "summary": {
+   "en": "DCS retrofit of a steam power plant: old panels removed, new DCS installed and units returned to commercial operation.",
+   "ar": "تحديث نظام DCS لمحطة بخارية: إزالة اللوحات القديمة وتركيب النظام الجديد وإعادة الوحدات إلى التشغيل التجاري."
+  },
+  "scope": [
+   {
+    "en": "Removal of the old panels and supervision of the new DCS installation and replacement",
+    "ar": "إزالة اللوحات القديمة والإشراف على تركيب واستبدال نظام DCS الجديد"
+   },
+   {
+    "en": "Commissioning and start-up, returning the DCS units to commercial operation",
+    "ar": "التشغيل التجريبي والتسليم وإعادة وحدات نظام DCS إلى التشغيل التجاري"
+   },
+   {
+    "en": "Owner staff training courses on DCS plant operation and maintenance",
+    "ar": "دورات تدريبية لفريق المالك على تشغيل وصيانة نظام DCS"
+   }
+  ]
+ },
+ {
+  "no": 2,
+  "slug": "damietta-ccpp-1230mw-dcs-migration",
+  "name": {
+   "en": "Damietta CCPP 1,230 MW",
+   "ar": "محطة دمياط للدورة المركبة 1230 ميجاوات"
+  },
+  "type": {
+   "en": "DCS migration",
+   "ar": "ترحيل نظام DCS"
+  },
+  "country": "egypt",
+  "start": 2006,
+  "capacity": "1,230 MW",
+  "figure": {
+   "value": "1,230",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "ovation",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "commissioning",
+   "training"
+  ],
+  "featured": true,
+  "summary": {
+   "en": "Migration of the plant DCS from Westinghouse WDPF to Emerson Ovation, with commissioning, start-up and owner training.",
+   "ar": "ترحيل نظام DCS للمحطة من Westinghouse WDPF إلى Emerson Ovation، مع التشغيل التجريبي والتسليم وتدريب فريق المالك."
+  },
+  "scope": [
+   {
+    "en": "Installation and commissioning of the new DCS parts",
+    "ar": "تركيب وتشغيل أجزاء نظام DCS الجديدة"
+   },
+   {
+    "en": "Commissioning and start-up, returning the DCS units to commercial operation",
+    "ar": "التشغيل التجريبي والتسليم وإعادة وحدات نظام DCS إلى التشغيل التجاري"
+   },
+   {
+    "en": "Owner staff training courses on DCS plant operation and maintenance",
+    "ar": "دورات تدريبية لفريق المالك على تشغيل وصيانة نظام DCS"
+   }
+  ]
+ },
+ {
+  "no": 3,
+  "slug": "new-talkha-el-kurimat-ii-ccpp-dcs",
+  "name": {
+   "en": "New Talkha & El Kurimat II CCPP 750 MW (two projects)",
+   "ar": "محطتا طلخا الجديدة والكريمات 2 للدورة المركبة 750 ميجاوات (مشروعان)"
+  },
+  "type": {
+   "en": "DCS installation & commissioning",
+   "ar": "تركيب وتشغيل نظام DCS"
+  },
+  "country": "egypt",
+  "start": 2007,
+  "end": 2009,
+  "capacity": "750 MW",
+  "figure": {
+   "value": "750",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "ovation",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "commissioning",
+   "training"
+  ],
+  "summary": {
+   "en": "DCS installation, hardware and software modifications and configuration for normal operation on two 750 MW combined-cycle plants.",
+   "ar": "تركيب نظام DCS وتعديلات الأجهزة والبرمجيات وضبطه للتشغيل الطبيعي في محطتين للدورة المركبة بقدرة 750 ميجاوات."
+  },
+  "scope": [
+   {
+    "en": "DCS installation, hardware and software modifications, configuring the DCS for normal operation",
+    "ar": "تركيب نظام DCS وتعديل الأجهزة والبرمجيات وضبط النظام للتشغيل الطبيعي"
+   },
+   {
+    "en": "Commissioning, start-up activities and powering up the system",
+    "ar": "التشغيل التجريبي وأنشطة بدء التشغيل وتغذية النظام بالكهرباء"
+   },
+   {
+    "en": "Owner staff training courses on DCS plant operation and maintenance",
+    "ar": "دورات تدريبية لفريق المالك على تشغيل وصيانة نظام DCS"
+   }
+  ]
+ },
+ {
+  "no": 4,
+  "slug": "new-talkha-el-kurimat-ii-bop-commissioning",
+  "name": {
+   "en": "New Talkha & El Kurimat II CCPP 750 MW — BOP",
+   "ar": "طلخا الجديدة والكريمات 2 للدورة المركبة 750 ميجاوات — منظومات BOP"
+  },
+  "type": {
+   "en": "BOP commissioning & start-up",
+   "ar": "التشغيل التجريبي لمنظومات BOP"
+  },
+  "country": "egypt",
+  "start": 2007,
+  "end": 2009,
+  "capacity": "750 MW",
+  "figure": {
+   "value": "750",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "other",
+  "partners": [
+   "Skoda"
+  ],
+  "services": [
+   "commissioning",
+   "staffing"
+  ],
+  "summary": {
+   "en": "BOP plant commissioning, start-up and operation team for Skoda (Czech Republic) on two 750 MW combined-cycle projects.",
+   "ar": "فريق التشغيل التجريبي وبدء التشغيل والتشغيل لمنظومات BOP لصالح Skoda (التشيك) في مشروعين للدورة المركبة بقدرة 750 ميجاوات."
+  },
+  "scope": [
+   {
+    "en": "BOP plant commissioning, start-up and operation team",
+    "ar": "فريق التشغيل التجريبي وبدء التشغيل والتشغيل لمنظومات BOP"
+   }
+  ]
+ },
+ {
+  "no": 5,
+  "slug": "new-talkha-el-kurimat-ii-hrsg-commissioning",
+  "name": {
+   "en": "New Talkha & El Kurimat II CCPP 750 MW — HRSG",
+   "ar": "طلخا الجديدة والكريمات 2 للدورة المركبة 750 ميجاوات — غلايات HRSG"
+  },
+  "type": {
+   "en": "HRSG commissioning & start-up",
+   "ar": "التشغيل التجريبي لغلايات HRSG"
+  },
+  "country": "egypt",
+  "start": 2007,
+  "end": 2009,
+  "capacity": "750 MW",
+  "figure": {
+   "value": "750",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "other",
+  "partners": [
+   "CMI"
+  ],
+  "services": [
+   "commissioning",
+   "staffing"
+  ],
+  "summary": {
+   "en": "HRSG boiler commissioning, start-up and operation team for CMI (Belgium) on two 750 MW combined-cycle projects.",
+   "ar": "فريق التشغيل التجريبي وبدء التشغيل والتشغيل لغلايات HRSG لصالح CMI (بلجيكا) في مشروعين للدورة المركبة بقدرة 750 ميجاوات."
+  },
+  "scope": [
+   {
+    "en": "HRSG boiler commissioning, start-up and operation team",
+    "ar": "فريق التشغيل التجريبي وبدء التشغيل والتشغيل لغلايات HRSG"
+   }
+  ]
+ },
+ {
+  "no": 6,
+  "slug": "suez-sokhna-sugar-plc-commissioning",
+  "name": {
+   "en": "Suez Sokhna Port United Sugar Project",
+   "ar": "مشروع السكر المتحد بميناء السخنة، السويس"
+  },
+  "type": {
+   "en": "PLC commissioning",
+   "ar": "تشغيل أنظمة PLC"
+  },
+  "country": "egypt",
+  "start": 2009,
+  "figure": {
+   "value": "S7",
+   "unit": {
+    "en": "Siemens PLC",
+    "ar": "وحدات Siemens PLC"
+   }
+  },
+  "platform": "siemens",
+  "partners": [
+   "Savola"
+  ],
+  "services": [
+   "plc",
+   "ic"
+  ],
+  "summary": {
+   "en": "IO loop and device checks and commissioning of a Siemens S7 PLC system for Savola (Saudi Arabia).",
+   "ar": "فحص حلقات IO والأجهزة وتشغيل نظام PLC من Siemens S7 لصالح Savola (السعودية)."
+  },
+  "scope": [
+   {
+    "en": "Siemens S7 PLC IO loop and device checks and commissioning",
+    "ar": "فحص حلقات IO والأجهزة وتشغيل نظام Siemens S7 PLC"
+   }
+  ]
+ },
+ {
+  "no": 7,
+  "slug": "new-talkha-ccpp-cwp-commissioning",
+  "name": {
+   "en": "New Talkha CCPP 750 MW — CWP",
+   "ar": "محطة طلخا الجديدة للدورة المركبة 750 ميجاوات — CWP"
+  },
+  "type": {
+   "en": "CWP commissioning & start-up",
+   "ar": "التشغيل التجريبي لمنظومة CWP"
+  },
+  "country": "egypt",
+  "start": 2009,
+  "capacity": "750 MW",
+  "figure": {
+   "value": "750",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "other",
+  "partners": [
+   "INITEC"
+  ],
+  "services": [
+   "commissioning",
+   "staffing"
+  ],
+  "summary": {
+   "en": "CWP commissioning, start-up and operation scope for INITEC (Spain) at the New Talkha combined-cycle plant.",
+   "ar": "نطاق التشغيل التجريبي وبدء التشغيل والتشغيل لمنظومة CWP لصالح INITEC (إسبانيا) في محطة طلخا الجديدة للدورة المركبة."
+  },
+  "scope": [
+   {
+    "en": "CWP commissioning, start-up and operation scope",
+    "ar": "التشغيل التجريبي وبدء التشغيل وتشغيل منظومة CWP"
+   }
+  ]
+ },
+ {
+  "no": 8,
+  "slug": "shoaiba-st-pp-dcs-retrofit",
+  "name": {
+   "en": "Shoaiba ST Power Plant 3×250 MW",
+   "ar": "محطة الشعيبة البخارية 3×250 ميجاوات"
+  },
+  "type": {
+   "en": "DCS retrofit",
+   "ar": "تحديث نظام DCS"
+  },
+  "country": "saudi-arabia",
+  "start": 2009,
+  "end": 2010,
+  "capacity": "3×250 MW",
+  "figure": {
+   "value": "750",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "emerson",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning"
+  ],
+  "summary": {
+   "en": "DCS retrofit of a steam power plant: IO loop and device checks, commissioning and start-up, returning the units to commercial operation.",
+   "ar": "تحديث نظام DCS لمحطة بخارية: فحص حلقات IO والأجهزة والتشغيل التجريبي وبدء التشغيل وإعادة الوحدات إلى التشغيل التجاري."
+  },
+  "scope": [
+   {
+    "en": "Plant IO loop and device checks",
+    "ar": "فحص حلقات IO والأجهزة في المحطة"
+   },
+   {
+    "en": "Commissioning and start-up, normalizing the system and returning to commercial operation",
+    "ar": "التشغيل التجريبي وبدء التشغيل وإعادة النظام إلى وضعه الطبيعي والتشغيل التجاري"
+   }
+  ]
+ },
+ {
+  "no": 9,
+  "slug": "pp4-riyadh-gt-dcs-retrofit",
+  "name": {
+   "en": "PP4 Riyadh Power Plant — GE gas turbines 2×25 MW",
+   "ar": "محطة الرياض PP4 — توربينات غازية GE بقدرة 2×25 ميجاوات"
+  },
+  "type": {
+   "en": "DCS retrofit",
+   "ar": "تحديث نظام DCS"
+  },
+  "country": "saudi-arabia",
+  "start": 2009,
+  "capacity": "2×25 MW",
+  "figure": {
+   "value": "50",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "ovation",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning",
+   "training"
+  ],
+  "summary": {
+   "en": "GE gas turbine loop and device checks, commissioning and start-up, plus DCS Ovation operation training for owner staff.",
+   "ar": "فحص حلقات IO والأجهزة للتوربينات الغازية GE والتشغيل التجريبي وبدء التشغيل، إضافة إلى تدريب فريق المالك على تشغيل DCS Ovation."
+  },
+  "scope": [
+   {
+    "en": "GE gas turbine loop and device checks, commissioning and start-up",
+    "ar": "فحص حلقات IO والأجهزة للتوربينات الغازية GE والتشغيل التجريبي وبدء التشغيل"
+   },
+   {
+    "en": "DCS Ovation operation training for owner staff",
+    "ar": "تدريب فريق المالك على تشغيل DCS Ovation"
+   },
+   {
+    "en": "Owner staff training courses on DCS plant operation and maintenance",
+    "ar": "دورات تدريبية لفريق المالك على تشغيل وصيانة نظام DCS"
+   }
+  ]
+ },
+ {
+  "no": 10,
+  "slug": "el-kurimat-iii-io-loop-commissioning",
+  "name": {
+   "en": "El Kurimat III 750 MW",
+   "ar": "محطة الكريمات 3 بقدرة 750 ميجاوات"
+  },
+  "type": {
+   "en": "I&C commissioning",
+   "ar": "تشغيل أنظمة القياس والتحكم"
+  },
+  "country": "egypt",
+  "start": 2010,
+  "capacity": "750 MW",
+  "figure": {
+   "value": "750",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "alstom",
+  "partners": [
+   "INITEC"
+  ],
+  "services": [
+   "ic",
+   "commissioning"
+  ],
+  "summary": {
+   "en": "IO loop and I&C device commissioning team for the Alstom DCS, working for INITEC (Spain).",
+   "ar": "فريق تشغيل حلقات IO وأجهزة القياس والتحكم لنظام Alstom DCS، بالعمل لصالح INITEC (إسبانيا)."
+  },
+  "scope": [
+   {
+    "en": "Alstom DCS IO loop and I&C device commissioning team",
+    "ar": "فريق تشغيل حلقات IO وأجهزة القياس والتحكم لنظام Alstom DCS"
+   }
+  ]
+ },
+ {
+  "no": 11,
+  "slug": "shoaiba-lime-water-plant-dcs-engineering",
+  "name": {
+   "en": "Shoaiba lime water plant",
+   "ar": "محطة مياه الجير بالشعيبة"
+  },
+  "type": {
+   "en": "DCS engineering for FAT",
+   "ar": "هندسة DCS لاختبار FAT"
+  },
+  "country": "saudi-arabia",
+  "start": 2010,
+  "figure": {
+   "value": "FAT",
+   "unit": {
+    "en": "Engineering",
+    "ar": "هندسة"
+   }
+  },
+  "platform": "emerson",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs"
+  ],
+  "summary": {
+   "en": "Engineering of the database, logic and graphics software, ready for the factory acceptance test.",
+   "ar": "هندسة قاعدة البيانات والمنطق والرسومات البرمجية الجاهزة لاختبار القبول بالمصنع FAT."
+  },
+  "scope": [
+   {
+    "en": "Engineering of database, logic and graphics software ready for FAT",
+    "ar": "هندسة قاعدة البيانات والمنطق والرسومات الجاهزة لاختبار FAT"
+   }
+  ]
+ },
+ {
+  "no": 12,
+  "slug": "rabigh-4x300mw-dcs-upgrade",
+  "name": {
+   "en": "Rabigh Power Plant 4×300 MW",
+   "ar": "محطة رابغ 4×300 ميجاوات"
+  },
+  "type": {
+   "en": "DCS upgrade",
+   "ar": "ترقية نظام DCS"
+  },
+  "country": "saudi-arabia",
+  "start": 2009,
+  "end": 2011,
+  "capacity": "4×300 MW",
+  "figure": {
+   "value": "1,200",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "emerson",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning",
+   "training"
+  ],
+  "summary": {
+   "en": "DCS software and hardware installation and programming, commissioning and start-up, ending with hand-over to the owner's staff.",
+   "ar": "تركيب وبرمجة نظام DCS (برمجيات وأجهزة) والتشغيل التجريبي وبدء التشغيل، وصولًا إلى التسليم لفريق المالك."
+  },
+  "scope": [
+   {
+    "en": "DCS software and hardware installation and programming, commissioning, start-up and powering up",
+    "ar": "تركيب وبرمجة نظام DCS (برمجيات وأجهزة) والتشغيل التجريبي وبدء التشغيل وتغذية النظام"
+   },
+   {
+    "en": "Plant IO loop and device checks, commissioning and start-up, units normalized and handed over to the owner for commercial operation",
+    "ar": "فحص حلقات IO والأجهزة والتشغيل التجريبي وبدء التشغيل وتسليم الوحدات لفريق المالك للتشغيل التجاري"
+   },
+   {
+    "en": "Owner staff training courses on DCS plant operation and maintenance",
+    "ar": "دورات تدريبية لفريق المالك على تشغيل وصيانة نظام DCS"
+   }
+  ]
+ },
+ {
+  "no": 13,
+  "slug": "al-arish-stpp-dcs-migration",
+  "name": {
+   "en": "Al Arish STPP 2×30 MW",
+   "ar": "محطة العريش البخارية 2×30 ميجاوات"
+  },
+  "type": {
+   "en": "DCS migration",
+   "ar": "ترحيل نظام DCS"
+  },
+  "country": "egypt",
+  "start": 2011,
+  "end": 2012,
+  "capacity": "2×30 MW",
+  "figure": {
+   "value": "60",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "emerson",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning",
+   "training"
+  ],
+  "summary": {
+   "en": "Complete DCS removal and installation scope and migration activities on a steam power plant.",
+   "ar": "نطاق كامل لإزالة وتركيب نظام DCS وأعمال الترحيل في محطة بخارية."
+  },
+  "scope": [
+   {
+    "en": "Complete DCS removal and installation scope and migration activities",
+    "ar": "نطاق كامل لإزالة وتركيب نظام DCS وأنشطة الترحيل"
+   },
+   {
+    "en": "Plant device check and test, commissioning of plant systems and return to normal operation",
+    "ar": "فحص واختبار أجهزة المحطة وتشغيل أنظمتها وإعادتها إلى التشغيل الطبيعي"
+   },
+   {
+    "en": "Owner staff training courses on DCS plant operation and maintenance",
+    "ar": "دورات تدريبية لفريق المالك على تشغيل وصيانة نظام DCS"
+   }
+  ]
+ },
+ {
+  "no": 14,
+  "slug": "old-talkha-210mw-tcs-retrofit",
+  "name": {
+   "en": "Old Talkha 210 MW — TCS Unit 2",
+   "ar": "محطة طلخا القديمة 210 ميجاوات — وحدة TCS رقم 2"
+  },
+  "type": {
+   "en": "DCS retrofit",
+   "ar": "تحديث نظام DCS"
+  },
+  "country": "egypt",
+  "start": 2011,
+  "capacity": "210 MW",
+  "figure": {
+   "value": "210",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "ovation",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs"
+  ],
+  "summary": {
+   "en": "Removal of the old TCS control cabinets and complete installation of a new Ovation DCS on Unit 2.",
+   "ar": "إزالة كابينات التحكم TCS القديمة والتركيب الكامل لنظام Ovation DCS جديد على الوحدة رقم 2."
+  },
+  "scope": [
+   {
+    "en": "Removal of the old TCS control cabinets and complete installation scope of the new Ovation DCS",
+    "ar": "إزالة كابينات التحكم TCS القديمة والتركيب الكامل لنظام Ovation DCS الجديد"
+   }
+  ]
+ },
+ {
+  "no": 15,
+  "slug": "solar-energy-kurimat-commissioning",
+  "name": {
+   "en": "Solar Energy Kurimat Power Plant",
+   "ar": "محطة الكريمات للطاقة الشمسية"
+  },
+  "type": {
+   "en": "Plant commissioning & start-up",
+   "ar": "التشغيل التجريبي وبدء التشغيل"
+  },
+  "country": "egypt",
+  "start": 2011,
+  "figure": {
+   "value": "Solar",
+   "unit": {
+    "en": "Commissioning",
+    "ar": "تشغيل تجريبي"
+   }
+  },
+  "platform": "other",
+  "partners": [
+   "Iberdrola"
+  ],
+  "services": [
+   "commissioning",
+   "staffing"
+  ],
+  "summary": {
+   "en": "Plant commissioning, start-up and operation within Iberdrola's scope.",
+   "ar": "التشغيل التجريبي وبدء التشغيل والتشغيل ضمن نطاق عمل Iberdrola."
+  },
+  "scope": [
+   {
+    "en": "Plant commissioning, start-up and operation within the Iberdrola scope",
+    "ar": "التشغيل التجريبي للمحطة وبدء التشغيل والتشغيل ضمن نطاق Iberdrola"
+   }
+  ]
+ },
+ {
+  "no": 16,
+  "slug": "sec4a-al-jouf-gt-dcs-upgrade",
+  "name": {
+   "en": "SEC4A Al Jouf — Fiat gas turbines 7×35 MW",
+   "ar": "SEC4A الجوف — توربينات غازية Fiat بقدرة 7×35 ميجاوات"
+  },
+  "type": {
+   "en": "DCS upgrade",
+   "ar": "ترقية نظام DCS"
+  },
+  "country": "saudi-arabia",
+  "start": 2009,
+  "end": 2012,
+  "capacity": "7×35 MW",
+  "figure": {
+   "value": "245",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "emerson",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning",
+   "training"
+  ],
+  "summary": {
+   "en": "New DCS installation supervision and software installation, then gas turbine IO loop checks, commissioning and a guarantee-period scope.",
+   "ar": "الإشراف على تركيب نظام DCS جديد وتثبيت برمجياته، ثم فحص حلقات IO للتوربينات والتشغيل التجريبي ونطاق فترة الضمان."
+  },
+  "scope": [
+   {
+    "en": "Supervision of the new DCS installation and software installation",
+    "ar": "الإشراف على تركيب نظام DCS الجديد وتثبيت البرمجيات"
+   },
+   {
+    "en": "Powering up the DCS and making it ready for gas turbine commissioning and start-up",
+    "ar": "تشغيل نظام DCS وتجهيزه لمرحلة التشغيل التجريبي وبدء تشغيل التوربينات الغازية"
+   },
+   {
+    "en": "Gas turbine IO loop and device checks, plant commissioning and normalizing the units after the reliability test",
+    "ar": "فحص حلقات IO والأجهزة للتوربينات الغازية وتشغيل المحطة وإعادة الوحدات إلى وضعها الطبيعي بعد اختبار الاعتمادية"
+   },
+   {
+    "en": "Guarantee period within PAT's scope",
+    "ar": "فترة الضمان ضمن نطاق عمل PAT"
+   },
+   {
+    "en": "Owner staff training courses on DCS plant operation and maintenance",
+    "ar": "دورات تدريبية لفريق المالك على تشغيل وصيانة نظام DCS"
+   }
+  ]
+ },
+ {
+  "no": 17,
+  "slug": "sec4a-al-quryat-gt-dcs-upgrade",
+  "name": {
+   "en": "SEC4A Al Quryat — BBC gas turbines 2×22 MW",
+   "ar": "SEC4A القريات — توربينات غازية BBC بقدرة 2×22 ميجاوات"
+  },
+  "type": {
+   "en": "DCS upgrade",
+   "ar": "ترقية نظام DCS"
+  },
+  "country": "saudi-arabia",
+  "start": 2013,
+  "capacity": "2×22 MW",
+  "figure": {
+   "value": "44",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "emerson",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning"
+  ],
+  "summary": {
+   "en": "New DCS installation supervision and software installation, then gas turbine IO loop checks and commissioning.",
+   "ar": "الإشراف على تركيب نظام DCS جديد وتثبيت برمجياته، ثم فحص حلقات IO للتوربينات والتشغيل التجريبي."
+  },
+  "scope": [
+   {
+    "en": "Supervision of the new DCS installation and software installation",
+    "ar": "الإشراف على تركيب نظام DCS الجديد وتثبيت البرمجيات"
+   },
+   {
+    "en": "Powering up the DCS and making it ready for gas turbine commissioning and start-up",
+    "ar": "تشغيل نظام DCS وتجهيزه لمرحلة التشغيل التجريبي وبدء تشغيل التوربينات الغازية"
+   },
+   {
+    "en": "Gas turbine IO loop and device checks, plant commissioning and normalizing the units after the reliability test",
+    "ar": "فحص حلقات IO والأجهزة للتوربينات الغازية وتشغيل المحطة وإعادة الوحدات إلى وضعها الطبيعي بعد اختبار الاعتمادية"
+   }
+  ]
+ },
+ {
+  "no": 18,
+  "slug": "sur-ipp-ccpp-2000mw-oman",
+  "name": {
+   "en": "Sur IPP-CCPP 2,000 MW",
+   "ar": "محطة صور للدورة المركبة 2000 ميجاوات (IPP)"
+  },
+  "type": {
+   "en": "Ovation DCS — APS check & commissioning",
+   "ar": "Ovation DCS — فحص APS والتشغيل"
+  },
+  "country": "oman",
+  "start": 2014,
+  "capacity": "2,000 MW",
+  "figure": {
+   "value": "2,000",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "ovation",
+  "partners": [
+   "Emerson",
+   "Daewoo"
+  ],
+  "services": [
+   "dcs",
+   "commissioning"
+  ],
+  "featured": true,
+  "summary": {
+   "en": "Check and modification of the Automatic Plant Start (APS) software on the new Ovation DCS so the plant starts as one power block.",
+   "ar": "فحص وتعديل برنامج البدء الآلي للمحطة (APS) على نظام Ovation DCS الجديد ليعمل بدء التشغيل كوحدة طاقة واحدة."
+  },
+  "scope": [
+   {
+    "en": "Check, troubleshooting and modification of the APS (Automatic Plant Start) software so it works as one power block plant start",
+    "ar": "فحص وحل مشكلات وتعديل برنامج APS (البدء الآلي للمحطة) ليعمل بدء التشغيل كوحدة طاقة واحدة"
+   },
+   {
+    "en": "Plant systems commissioning and start-up",
+    "ar": "التشغيل التجريبي وبدء تشغيل أنظمة المحطة"
+   }
+  ]
+ },
+ {
+  "no": 19,
+  "slug": "rabigh-ii-dcs-modernization",
+  "name": {
+   "en": "Rabigh II 2×300 MW",
+   "ar": "محطة رابغ 2 بقدرة 2×300 ميجاوات"
+  },
+  "type": {
+   "en": "DCS modernization",
+   "ar": "تحديث نظام DCS"
+  },
+  "country": "saudi-arabia",
+  "start": 2014,
+  "capacity": "2×300 MW",
+  "figure": {
+   "value": "600",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "emerson",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning"
+  ],
+  "summary": {
+   "en": "IO loop and device checks, commissioning and start-up after the DCS modernization, ending with hand-over to the owner.",
+   "ar": "فحص حلقات IO والأجهزة والتشغيل التجريبي وبدء التشغيل بعد تحديث نظام DCS، وصولًا إلى التسليم للمالك."
+  },
+  "scope": [
+   {
+    "en": "Plant IO loop and device checks",
+    "ar": "فحص حلقات IO والأجهزة في المحطة"
+   },
+   {
+    "en": "Commissioning and start-up, units normalized and returned to commercial operation by the owner (Saudi Electricity)",
+    "ar": "التشغيل التجريبي وبدء التشغيل وإعادة الوحدات إلى وضعها الطبيعي لتعود للتشغيل التجاري لدى المالك (السعودية للكهرباء)"
+   }
+  ]
+ },
+ {
+  "no": 20,
+  "slug": "marafiq-yanbu-ii-new-dcs",
+  "name": {
+   "en": "Marafiq Yanbu II 3×270 MW",
+   "ar": "مرافق ينبع 2 بقدرة 3×270 ميجاوات"
+  },
+  "type": {
+   "en": "New DCS",
+   "ar": "نظام DCS جديد"
+  },
+  "country": "saudi-arabia",
+  "start": 2014,
+  "end": 2017,
+  "capacity": "3×270 MW",
+  "figure": {
+   "value": "810",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "emerson",
+  "partners": [
+   "Emerson",
+   "Hanwha"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning"
+  ],
+  "summary": {
+   "en": "DCS hardware and software modifications and system configuration, IO loop and device checks, commissioning and start-up, with warranty-period coverage by a PAT engineer.",
+   "ar": "تعديلات أجهزة وبرمجيات DCS وضبط النظام وفحص حلقات IO والأجهزة والتشغيل التجريبي، مع تغطية فترة الضمان بمهندس من PAT."
+  },
+  "scope": [
+   {
+    "en": "DCS hardware and software modifications and system configuration",
+    "ar": "تعديلات أجهزة وبرمجيات DCS وضبط إعدادات النظام"
+   },
+   {
+    "en": "Plant IO loop and device checks, commissioning and start-up",
+    "ar": "فحص حلقات IO والأجهزة والتشغيل التجريبي وبدء التشغيل"
+   },
+   {
+    "en": "Warranty period covered by a PAT engineer",
+    "ar": "تغطية فترة الضمان بمهندس من PAT"
+   }
+  ]
+ },
+ {
+  "no": 21,
+  "slug": "el-kurimat-i-dcs-migration",
+  "name": {
+   "en": "El Kurimat I 2×650 MW",
+   "ar": "محطة الكريمات 1 بقدرة 2×650 ميجاوات"
+  },
+  "type": {
+   "en": "DCS migration",
+   "ar": "ترحيل نظام DCS"
+  },
+  "country": "egypt",
+  "start": 2015,
+  "end": 2016,
+  "capacity": "2×650 MW",
+  "figure": {
+   "value": "1,300",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "emerson",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning",
+   "training"
+  ],
+  "featured": true,
+  "summary": {
+   "en": "Site management and supervision of the DCS replacement on a very tight schedule, through start-up and return to commercial operation.",
+   "ar": "إدارة الموقع والإشراف على استبدال نظام DCS في جدول زمني ضيق جدًا، وصولًا إلى بدء التشغيل والعودة إلى التشغيل التجاري."
+  },
+  "scope": [
+   {
+    "en": "Site management and supervision, inspecting and checking out the removal of the old DCS parts and the installation of the new DCS, on a very tight schedule",
+    "ar": "إدارة الموقع والإشراف وفحص أعمال إزالة أجزاء DCS القديمة وتركيب النظام الجديد في جدول زمني ضيق جدًا"
+   },
+   {
+    "en": "Start-up and commissioning of the new DCS, powering up and configuring it for normal operation",
+    "ar": "التشغيل التجريبي وبدء تشغيل النظام الجديد وتغذيته وضبطه للتشغيل الطبيعي"
+   },
+   {
+    "en": "Plant device checks and tests (database, graphics, logic) and hardware and software modifications",
+    "ar": "فحص واختبار أجهزة المحطة (قواعد البيانات والرسومات والمنطق) وتعديلات الأجهزة والبرمجيات"
+   },
+   {
+    "en": "Cold and hot tests of plant devices and return of the DCS to normal commercial operation",
+    "ar": "اختبارات بارد وساخن لأجهزة المحطة وإعادة النظام إلى التشغيل التجاري الطبيعي"
+   },
+   {
+    "en": "Owner training courses on DCS plant operation and maintenance",
+    "ar": "دورات تدريبية للمالك على تشغيل وصيانة نظام DCS"
+   }
+  ]
+ },
+ {
+  "no": 22,
+  "slug": "makkah-gt-dcs-upgrade",
+  "name": {
+   "en": "Makkah Power Plant — GE gas turbines 6×65 MW",
+   "ar": "محطة مكة — توربينات غازية GE بقدرة 6×65 ميجاوات"
+  },
+  "type": {
+   "en": "DCS upgrade — GT3 troubleshooting",
+   "ar": "ترقية نظام DCS — حل مشكلات GT3"
+  },
+  "country": "saudi-arabia",
+  "start": 2016,
+  "capacity": "6×65 MW",
+  "figure": {
+   "value": "390",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "emerson",
+  "partners": [
+   "Emerson"
+  ],
+  "services": [
+   "dcs",
+   "support"
+  ],
+  "summary": {
+   "en": "GT3 start-up, operation troubleshooting and solution during the DCS upgrade of a GE gas turbine plant.",
+   "ar": "بدء تشغيل GT3 وحل مشكلات التشغيل خلال ترقية نظام DCS لمحطة توربينات غازية GE."
+  },
+  "scope": [
+   {
+    "en": "GT3 start-up, operation troubleshooting and solution",
+    "ar": "بدء تشغيل GT3 وحل مشكلات التشغيل"
+   }
+  ]
+ },
+ {
+  "no": 23,
+  "slug": "al-qaseem-gt9-valve-upgrade",
+  "name": {
+   "en": "Al Qaseem Power Station — Westinghouse gas turbines 9×50 MW",
+   "ar": "محطة القصيم — توربينات غازية Westinghouse بقدرة 9×50 ميجاوات"
+  },
+  "type": {
+   "en": "GT9 valve replacement & commissioning",
+   "ar": "استبدال صمامات GT9 والتشغيل"
+  },
+  "country": "saudi-arabia",
+  "start": 2017,
+  "capacity": "9×50 MW",
+  "figure": {
+   "value": "GT9",
+   "unit": {
+    "en": "Valve upgrade",
+    "ar": "ترقية الصمامات"
+   }
+  },
+  "platform": "other",
+  "partners": [
+   "Saudi FAL"
+  ],
+  "services": [
+   "ic",
+   "commissioning"
+  ],
+  "summary": {
+   "en": "Supervision of the new FCV installation (GT9 FCV, OST and HP/LP valves replaced with new REGZA valves), software installation and commissioning.",
+   "ar": "الإشراف على تركيب صمامات FCV الجديدة (استبدال صمامات GT9 وOST والضغط العالي والمنخفض بصمامات REGZA)، وتثبيت البرمجيات والتشغيل التجريبي."
+  },
+  "scope": [
+   {
+    "en": "Supervision of the new FCV installation and software installation, ready for gas turbine commissioning and start-up",
+    "ar": "الإشراف على تركيب صمامات FCV الجديدة وتثبيت البرمجيات وتجهيز التوربين للتشغيل التجريبي وبدء التشغيل"
+   },
+   {
+    "en": "GT9 IO loop and device checks, plant commissioning and normalizing the unit after the reliability test",
+    "ar": "فحص حلقات IO والأجهزة لـ GT9 وتشغيل المحطة وإعادة الوحدة إلى وضعها الطبيعي بعد اختبار الاعتمادية"
+   }
+  ]
+ },
+ {
+  "no": 24,
+  "slug": "west-damietta-ccpp-ic-commissioning",
+  "name": {
+   "en": "West Damietta Power Station CCPP — GT 4×125 + 1×250 MW",
+   "ar": "محطة غرب دمياط للدورة المركبة — توربينات 4×125 + 1×250 ميجاوات"
+  },
+  "type": {
+   "en": "I&C commissioning",
+   "ar": "تشغيل أنظمة القياس والتحكم"
+  },
+  "country": "egypt",
+  "start": 2017,
+  "capacity": "4×125 + 1×250 MW",
+  "figure": {
+   "value": "750",
+   "unit": {
+    "en": "MW",
+    "ar": "ميجاوات"
+   }
+  },
+  "platform": "other",
+  "partners": [
+   "GE",
+   "Orascom"
+  ],
+  "services": [
+   "ic",
+   "commissioning"
+  ],
+  "summary": {
+   "en": "I&C commissioning scope for four HRSGs, BOP, STG and ACC plants: cold and hot IO loop tests and plant device functional tests.",
+   "ar": "نطاق تشغيل أنظمة القياس والتحكم لأربع غلايات HRSG ومنظومات BOP وSTG وACC: اختبارات حلقات IO على البارد والساخن والاختبارات الوظيفية للأجهزة."
+  },
+  "scope": [
+   {
+    "en": "I&C commissioning scope for 4 HRSG, BOP, STG and ACC plants",
+    "ar": "نطاق تشغيل أنظمة القياس والتحكم لأربع غلايات HRSG ومنظومات BOP وSTG وACC"
+   },
+   {
+    "en": "IO cold and hot loop tests",
+    "ar": "اختبارات حلقات IO على البارد والساخن"
+   },
+   {
+    "en": "Plant device functional tests",
+    "ar": "الاختبارات الوظيفية لأجهزة المحطة"
+   }
+  ]
+ },
+ {
+  "no": 25,
+  "slug": "marafiq-yanbu-training-academy",
+  "name": {
+   "en": "Yanbu I & II — Marafiq training academy",
+   "ar": "ينبع 1 و2 — أكاديمية التدريب لدى مرافق"
+  },
+  "type": {
+   "en": "Consulting & training",
+   "ar": "استشارات وتدريب"
+  },
+  "country": "saudi-arabia",
+  "start": 2019,
+  "figure": {
+   "value": "HCD",
+   "unit": {
+    "en": "Consulting",
+    "ar": "استشارات"
+   }
+  },
+  "platform": "other",
+  "partners": [
+   "Leoron"
+  ],
+  "services": [
+   "training"
+  ],
+  "summary": {
+   "en": "HCD senior consultant for Marafiq's utility and engineering practice: improved work-flow procedures and established a training academy.",
+   "ar": "مستشار أول للتطوير (HCD) لقطاع المرافق والهندسة لدى مرافق: تحسين إجراءات سير العمل وتأسيس أكاديمية للتدريب."
+  },
+  "scope": [
+   {
+    "en": "Work-flow procedure improvements",
+    "ar": "تحسين إجراءات سير العمل"
+   },
+   {
+    "en": "Established an academy for the Marafiq training center",
+    "ar": "تأسيس أكاديمية لمركز التدريب لدى مرافق"
+   },
+   {
+    "en": "Created training course material for engineers, supervisors and technicians on operation and maintenance",
+    "ar": "إعداد مواد دورات تدريبية للمهندسين والمشرفين والفنيين في التشغيل والصيانة"
+   }
+  ]
+ },
+ {
+  "no": 26,
+  "slug": "el-esraa-tanker-troubleshooting",
+  "name": {
+   "en": "El Esraa petroleum tanker ship, Alexandria",
+   "ar": "ناقلة البترول الإسراء، الإسكندرية"
+  },
+  "type": {
+   "en": "Electrical & PLC troubleshooting",
+   "ar": "حل مشكلات الكهرباء وPLC"
+  },
+  "country": "egypt",
+  "start": 2020,
+  "figure": {
+   "value": "10",
+   "unit": {
+    "en": "days",
+    "ar": "أيام"
+   }
+  },
+  "platform": "other",
+  "partners": [],
+  "services": [
+   "support",
+   "plc"
+  ],
+  "summary": {
+   "en": "Troubleshooting of generator systems, switchgear, emergency systems and PLCs; the ship was handed over to the first engineer within 10 days after standing idle for years.",
+   "ar": "حل مشكلات أنظمة المولدات ولوحات التوزيع وأنظمة الطوارئ ووحدات PLC، وتسليم السفينة للمهندس الأول خلال 10 أيام بعد توقفها لسنوات."
+  },
+  "scope": [
+   {
+    "en": "Troubleshooting of the electrical generator systems, switchgear, emergency systems and PLCs",
+    "ar": "حل مشكلات أنظمة المولدات الكهربائية ولوحات التوزيع وأنظمة الطوارئ ووحدات PLC"
+   },
+   {
+    "en": "Task completed and the ship handed over to the first engineer within 10 days, after being stopped for years",
+    "ar": "إنجاز المهمة وتسليم السفينة للمهندس الأول خلال 10 أيام بعد توقفها لسنوات"
+   }
+  ]
+ },
+ {
+  "no": 27,
+  "slug": "shoaiba-stage-1-dcs-rehabilitation",
+  "name": {
+   "en": "Shoaiba Power Plant, Stage I Phase 1",
+   "ar": "محطة الشعيبة، المرحلة 1 — الفاز 1"
+  },
+  "type": {
+   "en": "DCS rehabilitation — ABB to Emerson Ovation",
+   "ar": "إعادة تأهيل DCS — من ABB إلى Emerson Ovation"
+  },
+  "country": "saudi-arabia",
+  "start": 2021,
+  "end": 2022,
+  "figure": {
+   "value": "Ovation",
+   "unit": {
+    "en": "from ABB",
+    "ar": "بدلًا من ABB"
+   }
+  },
+  "platform": "ovation",
+  "partners": [
+   "Emerson",
+   "Giza Systems"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning",
+   "support"
+  ],
+  "featured": false,
+  "summary": {
+   "en": "DCS rehabilitation from ABB to Emerson Ovation on a very tight schedule: IO loop checks, device tests and commissioning of boiler, turbine, BOP, desalination and demi water.",
+   "ar": "إعادة تأهيل نظام DCS من ABB إلى Emerson Ovation في جدول زمني ضيق جدًا: فحص حلقات IO واختبار الأجهزة وتشغيل الغلايات والتوربينات وBOP والتحلية والمياه منزوعة المعادن."
+  },
+  "scope": [
+   {
+    "en": "IO loop checks, device tests and commissioning of the boiler, turbine, BOP, desalination and demi water systems",
+    "ar": "فحص حلقات IO واختبار الأجهزة وتشغيل أنظمة الغلايات والتوربينات وBOP والتحلية والمياه منزوعة المعادن"
+   },
+   {
+    "en": "Troubleshooting of the Ovation DCS together with the Emerson team",
+    "ar": "حل مشكلات نظام Ovation DCS بالتعاون مع فريق Emerson"
+   },
+   {
+    "en": "Comprehensive support throughout the project on a tight construction schedule to return the plant to commercial operation",
+    "ar": "دعم شامل طوال المشروع ضمن جدول إنشاءات ضيق لإعادة المحطة إلى التشغيل التجاري"
+   }
+  ]
+ },
+ {
+  "no": 28,
+  "slug": "abqaiq-dcs-upgrade-aramco",
+  "name": {
+   "en": "Abqaiq plants — DCS upgrade, PIB-2 to PIB-18 (Aramco)",
+   "ar": "محطات بقيق — ترقية نظام DCS، من PIB-2 إلى PIB-18 (أرامكو)"
+  },
+  "type": {
+   "en": "DCS upgrade — DeltaV",
+   "ar": "ترقية DCS — DeltaV"
+  },
+  "country": "saudi-arabia",
+  "start": 2022,
+  "end": 2023,
+  "figure": {
+   "value": "12",
+   "unit": {
+    "en": "PIBs",
+    "ar": "مبانٍ PIB"
+   }
+  },
+  "platform": "deltav",
+  "partners": [
+   "Emerson",
+   "Saudi FAL",
+   "KBR"
+  ],
+  "services": [
+   "dcs",
+   "ic",
+   "commissioning",
+   "support"
+  ],
+  "featured": true,
+  "summary": {
+   "en": "DCS upgrade across twelve PIBs: document review, cabinet staging checks before FAT, construction supervision and hot and cold tests for each PIB shutdown.",
+   "ar": "ترقية نظام DCS في اثني عشر مبنى PIB: مراجعة الوثائق الهندسية وفحص تجهيز الكابينات قبل FAT والإشراف على الإنشاءات واختبارات بارد وساخن لكل إيقاف."
+  },
+  "scope": [
+   {
+    "en": "Engineering document review and verification of cabinet and marshalling staging before FAT",
+    "ar": "مراجعة الوثائق الهندسية والتحقق من تجهيز الكابينات ولوحات التجميع قبل FAT"
+   },
+   {
+    "en": "Supervision of construction activities",
+    "ar": "الإشراف على أعمال الإنشاءات"
+   },
+   {
+    "en": "Hot and cold test commissioning for each PIB shutdown",
+    "ar": "تشغيل واختبارات بارد وساخن عند كل إيقاف لمبنى PIB"
+   },
+   {
+    "en": "Troubleshooting of the DeltaV system with the Emerson team",
+    "ar": "حل مشكلات نظام DeltaV بالتعاون مع فريق Emerson"
+   },
+   {
+    "en": "Work carried out with the Saudi FAL / Emerson team in collaboration with the design company KBR",
+    "ar": "عمل بالتعاون مع فريق Saudi FAL وEmerson وبالتنسيق مع شركة التصميم KBR"
+   }
+  ]
+ }
+]

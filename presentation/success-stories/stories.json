@@ -1,0 +1,475 @@
+{
+ "_note": "Deck enrichment for each reference project (key = project number in src/data/projects.ts). 'confirm': true marks facts that are not in the PAT reference list and must be confirmed by PAT before the deck is sent. Coordinates are approximate (site / city level).",
+ "companies": {
+  "emerson": {
+   "name": "Emerson",
+   "logo": "emerson"
+  },
+  "skoda": {
+   "name": "SKODA (Czech Republic)"
+  },
+  "cmi": {
+   "name": "CMI (now John Cockerill)",
+   "logo": "cockerill",
+   "tile": "CMI"
+  },
+  "savola": {
+   "name": "Savola Group",
+   "logo": "savola",
+   "tile": "Savola"
+  },
+  "initec": {
+   "name": "INITEC (Spain)"
+  },
+  "iberdrola": {
+   "name": "Iberdrola",
+   "logo": "iberdrola"
+  },
+  "daewoo": {
+   "name": "Daewoo E&C"
+  },
+  "hanwha": {
+   "name": "Hanwha",
+   "logo": "hanwha"
+  },
+  "saudifal": {
+   "name": "Saudi FAL"
+  },
+  "ge": {
+   "name": "GE",
+   "logo": "ge"
+  },
+  "orascom": {
+   "name": "Orascom Construction",
+   "logo": "orascom",
+   "tile": "Orascom"
+  },
+  "leoron": {
+   "name": "Leoron"
+  },
+  "giza": {
+   "name": "Giza Systems"
+  },
+  "kbr": {
+   "name": "KBR (design)",
+   "logo": "kbr",
+   "tile": "KBR"
+  },
+  "eehc": {
+   "name": "Egyptian Electricity Holding Co.",
+   "tile": "EEHC"
+  },
+  "sec": {
+   "name": "Saudi Electricity Company",
+   "logo": "sec",
+   "tile": "Saudi Electricity"
+  },
+  "aramco": {
+   "name": "Saudi Aramco",
+   "logo": "aramco"
+  },
+  "marafiq": {
+   "name": "Marafiq"
+  },
+  "nrea": {
+   "name": "NREA — New & Renewable Energy Authority"
+  },
+  "phoenix": {
+   "name": "Phoenix Power Company",
+   "tile": "Phoenix Power"
+  },
+  "unitedsugar": {
+   "name": "United Sugar Company of Egypt",
+   "tile": "United Sugar"
+  },
+  "esraa": {
+   "name": "El Esraa Co.",
+   "tile": "El Esraa"
+  },
+  "direct": {
+   "name": "Direct contract",
+   "tile": "Direct client"
+  }
+ },
+ "sectors": {
+  "steam": "Steam power plants",
+  "cc": "Combined-cycle power plants",
+  "gt": "Gas-turbine power plants",
+  "solar": "Solar (ISCC)",
+  "water": "Water & utilities",
+  "oilgas": "Oil & gas processing",
+  "industrial": "Industrial & marine"
+ },
+ "stories": [
+  {
+   "no": 1,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "eehc",
+   "confirmEndUser": true,
+   "sector": "steam",
+   "lat": 29.93,
+   "lon": 32.44,
+   "photo": null,
+   "result": "DCS units returned to commercial operation; owner staff trained.",
+   "fallbackPhoto": "marshalling-cabinet"
+  },
+  {
+   "no": 2,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "eehc",
+   "confirmEndUser": true,
+   "sector": "cc",
+   "lat": 31.42,
+   "lon": 31.7,
+   "photo": null,
+   "evidence": "Recognised by Emerson: DCS Lead Engineer, Damietta 1,230 MW WDPF to Ovation Migration.",
+   "result": "Units returned to commercial operation on Ovation; owner staff trained.",
+   "fallbackPhoto": "io-wiring"
+  },
+  {
+   "no": 3,
+   "merge": [
+    4,
+    5
+   ],
+   "title": "New Talkha & El Kurimat II CCPP — 2 × 750 MW",
+   "contractors": [
+    "emerson",
+    "skoda",
+    "cmi"
+   ],
+   "roles": {
+    "emerson": "DCS installation & start-up",
+    "skoda": "BOP commissioning",
+    "cmi": "HRSG commissioning"
+   },
+   "endUser": "eehc",
+   "confirmEndUser": true,
+   "sector": "cc",
+   "lat": 31.06,
+   "lon": 31.37,
+   "photo": "talkha-kahraba",
+   "evidence": "Recognised by Emerson: DCS Lead Engineer on both plants.",
+   "result": "Both plants powered up and configured for normal operation; owner staff trained.",
+   "fallbackPhoto": "control-room-startup"
+  },
+  {
+   "no": 6,
+   "contractors": [
+    "savola"
+   ],
+   "endUser": "unitedsugar",
+   "confirmEndUser": true,
+   "sector": "industrial",
+   "lat": 29.65,
+   "lon": 32.35,
+   "photo": null,
+   "fallbackPhoto": "io-modules"
+  },
+  {
+   "no": 7,
+   "contractors": [
+    "initec"
+   ],
+   "endUser": "eehc",
+   "confirmEndUser": true,
+   "sector": "cc",
+   "lat": 31.06,
+   "lon": 31.37,
+   "photo": "talkha-kahraba",
+   "fallbackPhoto": "io-modules"
+  },
+  {
+   "no": 8,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "sec",
+   "confirmEndUser": true,
+   "sector": "steam",
+   "lat": 20.67,
+   "lon": 39.53,
+   "photo": "shoaiba",
+   "result": "System normalised and units returned to commercial operation.",
+   "fallbackPhoto": "marshalling-cabinet"
+  },
+  {
+   "no": 9,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "sec",
+   "confirmEndUser": true,
+   "sector": "gt",
+   "lat": 24.7,
+   "lon": 46.75,
+   "photo": null,
+   "result": "Gas turbines commissioned and started up; owner operators trained on Ovation.",
+   "fallbackPhoto": "ovation-gt-panel"
+  },
+  {
+   "no": 10,
+   "contractors": [
+    "initec"
+   ],
+   "endUser": "eehc",
+   "confirmEndUser": true,
+   "sector": "cc",
+   "lat": 29.27,
+   "lon": 31.24,
+   "photo": null,
+   "fallbackPhoto": "control-room-startup"
+  },
+  {
+   "no": 11,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": null,
+   "sector": "water",
+   "lat": 20.67,
+   "lon": 39.53,
+   "photo": "shoaiba",
+   "result": "Database, logic and graphics delivered ready for FAT.",
+   "fallbackPhoto": "io-wiring"
+  },
+  {
+   "no": 12,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "sec",
+   "sector": "steam",
+   "lat": 22.8,
+   "lon": 39.03,
+   "photo": "rabigh",
+   "result": "Units normalised and handed over to the owner for commercial operation.",
+   "fallbackPhoto": "io-wiring"
+  },
+  {
+   "no": 13,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "eehc",
+   "confirmEndUser": true,
+   "sector": "steam",
+   "lat": 31.13,
+   "lon": 33.8,
+   "photo": "pat:ovation-synch-al-arish",
+   "photoCaption": "Ovation operator graphics at Al Arish — PAT photo",
+   "result": "Plant systems back to normal operation; owner staff trained.",
+   "fallbackPhoto": "pat:ovation-synch-al-arish"
+  },
+  {
+   "no": 14,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "eehc",
+   "confirmEndUser": true,
+   "sector": "steam",
+   "lat": 31.06,
+   "lon": 31.37,
+   "photo": "talkha-kahraba",
+   "result": "New Ovation DCS installed on Unit 2.",
+   "fallbackPhoto": "dcs-cabinet"
+  },
+  {
+   "no": 15,
+   "contractors": [
+    "iberdrola"
+   ],
+   "endUser": "nrea",
+   "confirmEndUser": true,
+   "sector": "solar",
+   "lat": 29.27,
+   "lon": 31.24,
+   "photo": null,
+   "fallbackPhoto": "new-control-room"
+  },
+  {
+   "no": 16,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "sec",
+   "sector": "gt",
+   "lat": 29.95,
+   "lon": 40.2,
+   "photo": null,
+   "result": "Units back to commercial operation after the reliability test; guarantee period covered.",
+   "fallbackPhoto": "dcs-cabinet"
+  },
+  {
+   "no": 17,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "sec",
+   "sector": "gt",
+   "lat": 31.33,
+   "lon": 37.34,
+   "photo": null,
+   "result": "Units back to commercial operation after the reliability test.",
+   "fallbackPhoto": "public:control-desk"
+  },
+  {
+   "no": 18,
+   "contractors": [
+    "emerson",
+    "daewoo"
+   ],
+   "endUser": "phoenix",
+   "confirmEndUser": true,
+   "sector": "cc",
+   "lat": 22.57,
+   "lon": 59.53,
+   "photo": null,
+   "result": "Automatic Plant Start working as one power-block start; plant systems commissioned.",
+   "fallbackPhoto": "control-room-team"
+  },
+  {
+   "no": 19,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "sec",
+   "sector": "steam",
+   "lat": 22.8,
+   "lon": 39.03,
+   "photo": "rabigh",
+   "result": "Units returned to commercial operation by the owner.",
+   "fallbackPhoto": "public:control-room-operators"
+  },
+  {
+   "no": 20,
+   "contractors": [
+    "emerson",
+    "hanwha"
+   ],
+   "endUser": "marafiq",
+   "sector": "water",
+   "lat": 23.95,
+   "lon": 38.28,
+   "photo": null,
+   "result": "New DCS commissioned; warranty period covered by a PAT engineer.",
+   "fallbackPhoto": "network-rack"
+  },
+  {
+   "no": 21,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "eehc",
+   "confirmEndUser": true,
+   "sector": "steam",
+   "lat": 29.27,
+   "lon": 31.24,
+   "photo": null,
+   "result": "DCS back in normal commercial operation on a very tight schedule.",
+   "fallbackPhoto": "public:dcs-cabinet-io"
+  },
+  {
+   "no": 22,
+   "contractors": [
+    "emerson"
+   ],
+   "endUser": "sec",
+   "confirmEndUser": true,
+   "sector": "gt",
+   "lat": 21.42,
+   "lon": 39.83,
+   "photo": null,
+   "result": "GT3 start-up and operation problems solved.",
+   "fallbackPhoto": "public:operator-workstation"
+  },
+  {
+   "no": 23,
+   "contractors": [
+    "saudifal"
+   ],
+   "endUser": "sec",
+   "sector": "gt",
+   "lat": 26.33,
+   "lon": 43.97,
+   "photo": null,
+   "result": "GT9 back to commercial operation after the reliability test.",
+   "fallbackPhoto": "public:ovation-gt-hmi"
+  },
+  {
+   "no": 24,
+   "contractors": [
+    "ge",
+    "orascom"
+   ],
+   "endUser": "eehc",
+   "confirmEndUser": true,
+   "sector": "cc",
+   "lat": 31.44,
+   "lon": 31.63,
+   "photo": null,
+   "fallbackPhoto": "public:control-room-operators"
+  },
+  {
+   "no": 25,
+   "contractors": [
+    "leoron"
+   ],
+   "endUser": "marafiq",
+   "sector": "water",
+   "lat": 23.95,
+   "lon": 38.28,
+   "photo": null,
+   "result": "Training academy established for Marafiq's training centre.",
+   "fallbackPhoto": "ovation-workstation"
+  },
+  {
+   "no": 26,
+   "contractors": [
+    "direct"
+   ],
+   "endUser": "esraa",
+   "sector": "industrial",
+   "lat": 31.2,
+   "lon": 29.92,
+   "photo": null,
+   "result": "Ship handed over to the first engineer within 10 days after standing idle for years.",
+   "fallbackPhoto": "synchronizing-panel"
+  },
+  {
+   "no": 27,
+   "contractors": [
+    "emerson",
+    "giza"
+   ],
+   "endUser": "sec",
+   "confirmEndUser": true,
+   "sector": "steam",
+   "lat": 20.67,
+   "lon": 39.53,
+   "photo": "shoaiba",
+   "result": "Delivered on a very tight schedule to return the plant to commercial operation.",
+   "fallbackPhoto": "control-room-team"
+  },
+  {
+   "no": 28,
+   "contractors": [
+    "emerson",
+    "saudifal",
+    "kbr"
+   ],
+   "endUser": "aramco",
+   "sector": "oilgas",
+   "lat": 25.93,
+   "lon": 49.67,
+   "photo": "abqaiq-gosp",
+   "result": "Hot and cold tests completed for each of the twelve PIB shutdowns.",
+   "fallbackPhoto": "network-rack"
+  }
+ ]
+}
