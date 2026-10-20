@@ -200,6 +200,16 @@
   "dark": false
  },
  {
+  "svg": "logo/pat-weave-device-reverse.svg",
+  "png": [
+   1600
+  ],
+  "pdf": null,
+  "group": "Logo",
+  "label": "Weave device \u2014 on navy",
+  "dark": true
+ },
+ {
   "svg": "stationery/business-card-back.svg",
   "png": [
    1200

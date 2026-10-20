@@ -265,6 +265,8 @@ def build_logos():
     save("logo/pat-app-icon.svg", doc(s, 1024, 1024, bg=WHITE, title="PAT"), png=[400, 1024], group="Logo", label="App / profile icon")
     save("logo/pat-weave-device.svg", doc(weave(600, 380, 1150, -42.4, "upper"), 1200, 760, title="PAT weave device"),
          png=[1600], group="Logo", label="Weave device")
+    save("logo/pat-weave-device-reverse.svg", doc(weave(600, 380, 1150, -42.4, "upper", "reverse"), 1200, 760, title="PAT weave device"),
+         png=[1600], group="Logo", label="Weave device — on navy", dark=True)
 
 
 # ------------------------------------------------------------------ stationery
