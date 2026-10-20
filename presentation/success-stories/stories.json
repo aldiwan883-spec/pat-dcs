@@ -6,7 +6,8 @@
    "logo": "emerson"
   },
   "skoda": {
-   "name": "SKODA (Czech Republic)"
+   "name": "SKODA Power (now Doosan Skoda Power)",
+   "logo": "doosan"
   },
   "cmi": {
    "name": "CMI (now John Cockerill)",
@@ -19,14 +20,16 @@
    "tile": "Savola"
   },
   "initec": {
-   "name": "INITEC (Spain)"
+   "name": "INITEC Energia (Tecnicas Reunidas group)",
+   "logo": "tecnicas-reunidas"
   },
   "iberdrola": {
    "name": "Iberdrola",
    "logo": "iberdrola"
   },
   "daewoo": {
-   "name": "Daewoo E&C"
+   "name": "Daewoo E&C",
+   "logo": "daewoo"
   },
   "hanwha": {
    "name": "Hanwha",
@@ -45,7 +48,8 @@
    "tile": "Orascom"
   },
   "leoron": {
-   "name": "Leoron"
+   "name": "Leoron",
+   "logo": "leoron"
   },
   "giza": {
    "name": "Giza Systems"
@@ -57,7 +61,8 @@
   },
   "eehc": {
    "name": "Egyptian Electricity Holding Co.",
-   "tile": "EEHC"
+   "tile": "EEHC",
+   "logo": "eehc"
   },
   "sec": {
    "name": "Saudi Electricity Company",
@@ -69,10 +74,12 @@
    "logo": "aramco"
   },
   "marafiq": {
-   "name": "Marafiq"
+   "name": "Marafiq",
+   "logo": "marafiq"
   },
   "nrea": {
-   "name": "NREA — New & Renewable Energy Authority"
+   "name": "NREA — New & Renewable Energy Authority",
+   "logo": "nrea"
   },
   "phoenix": {
    "name": "Phoenix Power Company",

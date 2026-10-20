@@ -1,7 +1,8 @@
 // Renders the raster assets for the success-stories deck:
 //   maps (overview, per country, per-project locators), logo PNGs and name tiles.
+// Logos: assets/logos/<logo>.png is used as is; <logo>.svg is rasterised; otherwise a name tile is drawn.
 // Usage (from the repo root): CHROMIUM_PATH=/path/to/chrome node presentation/success-stories/render.mjs
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -137,9 +138,12 @@ for (const story of data.stories) {
 /* --------------------------------------------------------------- logos and name tiles */
 for (const [key, co] of Object.entries(data.companies)) {
   const out = join(OUT, "logos", `${key}.png`);
+  const png = join(A, "logos", `${co.logo}.png`);
   const svg = join(A, "logos", `${co.logo}.svg`);
-  if (co.logo && existsSync(svg)) {
-    await shot(`<div style="width:1200px;height:500px;display:flex;align-items:center;justify-content:center"><img src="file://${svg}" style="max-width:1100px;max-height:420px"></div>`, 1200, 500, out, true);
+  if (co.logo && existsSync(png)) {
+    copyFileSync(png, out);
+  } else if (co.logo && existsSync(svg)) {
+    await shot(`<div style="width:1600px;height:500px;display:flex;align-items:center;justify-content:center"><img src="file://${svg}" style="width:1500px;max-height:420px"></div>`, 1600, 500, out, true);
   } else {
     const name = co.tile ?? co.name.replace(/ \(.*\)$/, "").replace(/ — .*$/, "");
     await shot(`<div style="width:1400px;height:300px;display:flex;align-items:center;justify-content:center;font:700 120px/1 BC;letter-spacing:4px;color:${SLATE};text-transform:uppercase;white-space:nowrap">${name}</div>`, 1400, 300, out, true);
