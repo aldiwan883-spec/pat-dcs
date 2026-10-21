@@ -27,7 +27,7 @@ export default async function CredentialsPage({ params }: LocaleParams) {
           { name: dict.nav.credentials, path: "/credentials" },
         ])}
       />
-      <PageHero eyebrow={t.eyebrow} title={t.h1} lead={t.lead} />
+      <PageHero eyebrow={t.eyebrow} title={t.h1} lead={t.lead} image="/images/site/control-room-startup.jpg" />
 
       <section className="py-14 sm:py-20">
         <Container className="grid items-start gap-12 md:grid-cols-[1fr_1.2fr]">

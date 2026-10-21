@@ -89,7 +89,7 @@ export default async function ContactPage({ params }: LocaleParams) {
           { name: dict.nav.contact, path: "/contact" },
         ])}
       />
-      <PageHero eyebrow={t.eyebrow} title={t.h1} lead={t.lead} />
+      <PageHero eyebrow={t.eyebrow} title={t.h1} lead={t.lead} image="/images/site/team-night.jpg" />
 
       <section className="py-14 sm:py-20">
         <Container className="grid gap-12 lg:grid-cols-[1.4fr_1fr]">

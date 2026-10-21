@@ -13,10 +13,14 @@ export async function generateMetadata({ params }: LocaleParams): Promise<Metada
 }
 
 const gallery = [
-  { src: "/images/control-room-operators.jpg", w: 1600, h: 1200, alt: { en: "Operators working in a power plant control room", ar: "مشغّلون يعملون في غرفة تحكم بمحطة كهرباء" } },
-  { src: "/images/ovation-gt-hmi.jpg", w: 1400, h: 1050, alt: { en: "Ovation operator station on a gas turbine control cabinet", ar: "محطة تشغيل Ovation على كابينة تحكم توربين غازي" } },
-  { src: "/images/dcs-cabinet.jpg", w: 1000, h: 1333, alt: { en: "DCS cabinet with IO modules", ar: "كابينة نظام DCS بوحدات IO" } },
-  { src: "/images/operator-workstation.jpg", w: 1400, h: 1050, alt: { en: "Engineer at a DCS operator workstation", ar: "مهندس أمام محطة تشغيل نظام DCS" } },
+  { src: "/images/site/team-site.jpg", w: 1600, h: 1200, alt: { en: "PAT team in PPE in front of a power plant", ar: "فريق PAT بمعدات السلامة أمام محطة كهرباء" } },
+  { src: "/images/site/control-room-startup.jpg", w: 1600, h: 1200, alt: { en: "Start-up in a power plant control room", ar: "بدء التشغيل في غرفة تحكم محطة كهرباء" } },
+  { src: "/images/site/marshalling-cabinet.jpg", w: 1200, h: 1600, alt: { en: "Marshalling cabinet wiring", ar: "توصيلات كابينة التوزيع" } },
+  { src: "/images/site/ovation-gt-panel.jpg", w: 1600, h: 1200, alt: { en: "Ovation operator station on a gas turbine control cabinet", ar: "محطة تشغيل Ovation على كابينة تحكم توربين غازي" } },
+  { src: "/images/site/team-night.jpg", w: 1200, h: 1600, alt: { en: "PAT team on a night shift during commissioning", ar: "فريق PAT في وردية ليلية أثناء التشغيل التجريبي" } },
+  { src: "/images/site/plant-steam.jpg", w: 1600, h: 1200, alt: { en: "Power plant during start-up", ar: "محطة كهرباء أثناء بدء التشغيل" } },
+  { src: "/images/site/io-wiring.jpg", w: 1200, h: 1600, alt: { en: "DCS IO modules and field wiring", ar: "وحدات IO وتوصيلات ميدانية لنظام DCS" } },
+  { src: "/images/site/control-room-team.jpg", w: 1600, h: 1200, alt: { en: "Operators working in a power plant control room", ar: "مشغّلون يعملون في غرفة تحكم بمحطة كهرباء" } },
 ] as const;
 
 export default async function AboutPage({ params }: LocaleParams) {
@@ -26,7 +30,7 @@ export default async function AboutPage({ params }: LocaleParams) {
 
   return (
     <>
-      <PageHero eyebrow={t.eyebrow} title={t.h1} lead={t.lead} />
+      <PageHero eyebrow={t.eyebrow} title={t.h1} lead={t.lead} image="/images/site/team-stack.jpg" />
 
       <section className="py-16 sm:py-20">
         <Container className="grid gap-12 md:grid-cols-[1.3fr_1fr]">

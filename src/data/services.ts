@@ -4,6 +4,8 @@ export type ServiceId = "dcs" | "plc" | "commissioning" | "ic" | "training" | "s
 
 export interface Service {
   id: ServiceId;
+  /** Real PAT site photo (public/images/site). */
+  photo: string;
   title: L10n;
   summary: L10n;
   bullets: L10n[];
@@ -12,6 +14,7 @@ export interface Service {
 export const services: Service[] = [
   {
     id: "dcs",
+    photo: "/images/site/dcs-cabinet.jpg",
     title: T("DCS Engineering & Commissioning", "هندسة وتشغيل أنظمة DCS"),
     summary: T(
       "Installation supervision, software and hardware configuration and commissioning of distributed control systems — mainly Emerson Ovation — in power and industrial plants.",
@@ -26,6 +29,7 @@ export const services: Service[] = [
   },
   {
     id: "plc",
+    photo: "/images/site/io-wiring.jpg",
     title: T("PLC Programming & Integration", "برمجة ودمج وحدات PLC"),
     summary: T(
       "Engineering, installation and commissioning of PLC-based systems, including Siemens S7, and troubleshooting of PLC controls.",
@@ -39,6 +43,7 @@ export const services: Service[] = [
   },
   {
     id: "commissioning",
+    photo: "/images/site/control-room-startup.jpg",
     title: T("Commissioning & Start-up", "التشغيل التجريبي والتسليم"),
     summary: T(
       "Commissioning teams for gas turbines, steam turbines, boilers, HRSGs and balance of plant, helping EPC contractors deliver the plant faster, safer and at optimum cost.",
@@ -53,6 +58,7 @@ export const services: Service[] = [
   },
   {
     id: "ic",
+    photo: "/images/site/marshalling-cabinet.jpg",
     title: T("I&C and Electrical Commissioning", "تشغيل أنظمة القياس والتحكم والكهرباء"),
     summary: T(
       "Loop checks, device tests and calibration for instrumentation and control systems, plus electrical commissioning, to ensure safe and efficient operation.",
@@ -67,6 +73,7 @@ export const services: Service[] = [
   },
   {
     id: "training",
+    photo: "/images/site/ovation-workstation.jpg",
     title: T("Training & Development", "التدريب والتطوير"),
     summary: T(
       "Customized operation and maintenance training for owner staff, including DCS operation and simulator instruction.",
@@ -80,6 +87,7 @@ export const services: Service[] = [
   },
   {
     id: "staffing",
+    photo: "/images/site/team-crane.jpg",
     title: T("Technical Staffing & Manpower", "الكوادر الفنية وتوفير العمالة"),
     summary: T(
       "Screened engineers and technicians placed with contractors and owners on a contractual basis — part-time or full-time, for short or extended periods.",
@@ -94,6 +102,7 @@ export const services: Service[] = [
   },
   {
     id: "support",
+    photo: "/images/site/team-night.jpg",
     title: T("Troubleshooting & Emergency Support", "حل المشكلات والدعم الطارئ"),
     summary: T(
       "Rapid support for routine and critical problems that affect your facility, available 24/7.",

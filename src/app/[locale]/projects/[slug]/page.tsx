@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { Icon } from "@/components/Icon";
 import { JsonLd } from "@/components/JsonLd";
 import { ProjectTile } from "@/components/ProjectTile";
-import { Breadcrumbs, Container, CtaBand } from "@/components/ui";
+import { Breadcrumbs, Container, CtaBand, Weave } from "@/components/ui";
 import { period, projectBySlug, projects, type Project } from "@/data/projects";
 import { serviceById } from "@/data/services";
 import { getDictionary } from "@/i18n";
@@ -82,7 +82,8 @@ export default async function ProjectPage({ params }: Params) {
     <>
       <JsonLd data={breadcrumbSchema(locale, crumbs)} />
 
-      <section className="bg-navy text-white">
+      <section className="relative isolate overflow-hidden bg-navy text-white">
+        <Weave className="-bottom-24 -right-24 -z-10 hidden w-[34rem] opacity-90 md:block rtl:right-auto rtl:-left-24" />
         <Container className="py-12 sm:py-16">
           <Breadcrumbs
             locale={locale}

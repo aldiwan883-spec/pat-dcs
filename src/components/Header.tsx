@@ -18,11 +18,12 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
       <div className="relative mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3 sm:px-6">
-        <Link href={localizedPath(locale, "/")} className="flex items-center gap-3" aria-label={dict.site.name}>
-          <Image src="/images/brand/pat-symbol-color-256.png" alt="" width={50} height={48} className="h-12 w-auto object-contain" priority />
-          <span className="display text-xl leading-none sm:text-2xl">
-            {company.name[locale]}
-          </span>
+        <Link href={localizedPath(locale, "/")} className="flex items-center" aria-label={dict.site.name}>
+          {locale === "ar" ? (
+            <Image src="/images/brand/pat-lockup-arabic-color.png" alt={company.name[locale]} width={740} height={165} className="h-11 w-auto sm:h-12" priority />
+          ) : (
+            <Image src="/images/brand/pat-lockup-horizontal-color.png" alt={company.name[locale]} width={640} height={165} className="h-11 w-auto sm:h-12" priority />
+          )}
         </Link>
         <SiteNav
           locale={locale}

@@ -11,10 +11,7 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
     <footer className="bg-navy-deep text-white">
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:px-6 md:grid-cols-[1.4fr_1fr_1.2fr]">
         <div>
-          <div className="flex items-center gap-3">
-            <Image src="/images/brand/pat-symbol-reverse-256.png" alt="" width={50} height={48} className="h-12 w-auto object-contain" />
-            <span className="display text-2xl leading-none">{company.name[locale]}</span>
-          </div>
+          <Image src="/images/brand/pat-lockup-horizontal-reverse.png" alt={company.name[locale]} width={640} height={165} className="h-14 w-auto" />
           <p className="mt-4 max-w-sm text-[1rem] text-white/75">{dict.footer.about}</p>
         </div>
 

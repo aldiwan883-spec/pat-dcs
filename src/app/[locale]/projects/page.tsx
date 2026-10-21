@@ -60,6 +60,7 @@ export default async function ProjectsPage({ params }: LocaleParams) {
         eyebrow={t.eyebrow}
         title={t.h1}
         lead={fmt(t.lead, { n: projectStats.total, c: projectStats.countries })}
+        image="/images/site/control-room-team.jpg"
       />
       <section className="py-12 sm:py-16">
         <Container>

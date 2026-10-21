@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { localizedPath, type Locale } from "@/lib/i18n";
@@ -29,10 +30,49 @@ export function SectionHeading({
   );
 }
 
-export function PageHero({ eyebrow, title, lead }: { eyebrow: string; title: string; lead?: string }) {
+/**
+ * The weave: one stripe bundle of the logo sweeping in from the bottom edge (brand/README.md, "The weave").
+ * Decorative only; mirrored in RTL so it always enters from the trailing side.
+ */
+export function Weave({ className = "", tone = "reverse" }: { className?: string; tone?: "reverse" | "color" }) {
   return (
-    <section className="bg-navy text-white">
+    <Image
+      src={tone === "reverse" ? "/images/brand/pat-weave-reverse.png" : "/images/brand/pat-weave.png"}
+      alt=""
+      aria-hidden="true"
+      width={1200}
+      height={760}
+      sizes="(min-width: 1024px) 640px, 70vw"
+      className={`pointer-events-none absolute select-none rtl:-scale-x-100 ${className}`}
+    />
+  );
+}
+
+export function PageHero({
+  eyebrow,
+  title,
+  lead,
+  image,
+  children,
+}: {
+  eyebrow: string;
+  title: string;
+  lead?: string;
+  /** Real site photo shown under a navy overlay. */
+  image?: string;
+  children?: ReactNode;
+}) {
+  return (
+    <section className="relative isolate overflow-hidden bg-navy text-white">
+      {image && (
+        <>
+          <Image src={image} alt="" fill priority sizes="100vw" className="-z-20 object-cover" />
+          <div className="absolute inset-0 -z-10 bg-linear-to-r from-navy via-navy/80 to-navy/35 rtl:bg-linear-to-l" />
+        </>
+      )}
+      <Weave className="-bottom-24 -right-24 -z-10 hidden w-[34rem] opacity-90 md:block rtl:right-auto rtl:-left-24" />
       <Container className="py-14 sm:py-20">
+        {children}
         <SectionHeading as="h1" eyebrow={eyebrow} title={title} lead={lead} light />
       </Container>
     </section>
@@ -82,8 +122,9 @@ export function CtaBand({
   cta: string;
 }) {
   return (
-    <section className="bg-navy text-white">
-      <Container className="flex flex-col items-start justify-between gap-6 py-14 md:flex-row md:items-center">
+    <section className="relative isolate overflow-hidden bg-navy text-white">
+      <Weave className="-right-16 -top-28 -z-10 hidden w-[30rem] opacity-80 lg:block rtl:right-auto rtl:-left-16" />
+      <Container className="flex flex-col items-start justify-between gap-6 py-14 md:flex-row md:items-center lg:pe-72">
         <div className="max-w-2xl">
           <h2 className="display text-4xl sm:text-5xl">{title}</h2>
           <p className="mt-3 text-lg text-white/80">{body}</p>
